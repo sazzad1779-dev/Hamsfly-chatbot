@@ -78,14 +78,17 @@ class SabreFlightSearch:
 
 # Example usage
 if __name__ == "__main__":
-    access_token = "T1RLAQK//Zw2p2lyvMcvsbu/KmnzyE9Us3gmmx7Px76aOsrtoBBXuaCSMYUTlJ1KgD4jSRATAADQ+6BF3xoUFkBQGoBVKPrME4k0AzISYcQfjSj8r44WEiKUlIWxsfpN/hV7nkAC9tpov4JPmDeWhnjeDKSvEo3Q8zSrQQe44+PeWMtKori28gu8skR15AGutR37HwNBW/em598YHuLjyat7nvC8aizEVtBx6qPkw6i/TFxg+u38ICazWmvhZ2P4mJHR+5oBPGxG3Mqj5Sx3Y3rKZXeAaaSMlsRZ8HB+oP9Rl2PDc8M7gP3jOFjWS8M+zlinMrAtPf0L4t6Vs1Tl2eCVKhobMNad6w**"
+    from dotenv import load_dotenv
+    import os
+    load_dotenv()
+    access_token = os.getenv("ACCESS_TOKEN")
     sabre = SabreFlightSearch(access_token)
     result = sabre.search(
         pcc="7C18",  
         origin="MIA",
         destination= "MCO"    ,        # Replace with your PseudoCityCode
-        start_date="2025-08-10",
-        end_date="2025-08-20"
+        start_date="2025-10-10",
+        end_date="2025-10-20"
     )
 
     if result:
