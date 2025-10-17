@@ -1,9 +1,9 @@
 import requests
-import json
-
+# import json
+import os
 class SabreFlightSearch:
-    def __init__(self, access_token: str):
-        self.access_token = access_token
+    def __init__(self):
+        self.access_token = os.getenv("ACCESS_TOKEN")
         self.url = "https://api.platform.sabre.com/v4.3.0/shop/flights?mode=live"
 
     def search(self, pcc: str,origin: str, destination: str, start_date: str, end_date: str):

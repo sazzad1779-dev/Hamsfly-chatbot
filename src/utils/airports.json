@@ -1,0 +1,2186 @@
+AIRPORTS = {
+    "BD":{
+    "DAC": {"name": "Hazrat Shahjalal International Airport", "citys": "Dhaka"},
+    "CGP": {"name": "Shah Amanat International Airport", "citys": "Chattogram"},
+    "CXB": {"name": "Cox's Bazar International Airport", "citys": "Cox's Bazar"},
+    "ZYL": {"name": "Osmani International Airport", "citys": "Sylhet"},
+    "JSR": {"name": "Jessore Airport", "citys": "Jessore"},
+    "BZL": {"name": "Barishal Airport", "citys": "Barishal"},
+    "RJH": {"name": "Shah Makhdum Airport", "citys": "Rajshahi"},
+    "SPD": {"name": "Saidpur Airport", "citys": "Saidpur"},
+    "CLA": {"name": "Comilla Airport", "citys": "Comilla"},
+    "IRD": {"name": "Ishwardi Airport", "citys": "Ishwardi"},
+    "LLJ": {"name": "Lalmonirhat Airport", "citys": "Lalmonirhat"},
+    "ZHM": {"name": "Shamshernagar Airport", "citys": "Moulvibazar"},
+    "SAJ": {"name": "Shah Makhdum Airport", "citys": "Sirajganj"},
+    "SDW": {"name": "Sandwip Airport", "citys": "Sandwip"},
+    "TKR": {"name": "Thakurgaon Airport", "citys": "Thakurgaon"},
+    "RAU": {"name": "Rangpur Airport", "citys": "Rangpur"},
+    "KHL": {"name": "Khulna Airport", "citys": "Khulna"},
+    "DNJ": {"name": "Dinajpur Airport", "citys": "Dinajpur"},
+    "VGHS": {"name": "Kurmitola Airfield", "citys": "Dhaka (Military)"},
+    "VGZR": {"name": "Tejgaon Airfield", "citys": "Dhaka (Military)"},
+    "VGBR": {"name": "Bogura Airfield", "citys": "Bogura (Military)"},
+    "VGSH": {"name": "Feni Airfield", "citys": "Feni (Military)"},
+    "VGRG": {"name": "Hathazari Airfield", "citys": "Hathazari (Military)"},
+    "VGTJ": {"name": "Tangail Airfield", "citys": "Tangail (Military)"},
+    "VGCB": {"name": "Dohazari Airfield", "citys": "Dohazari (Military)"},
+    "VGJR": {"name": "Matiur Rahman Airbase", "citys": "Jessore (Military)"},
+    "VGKN": {"name": "Khademul Bashar Airbase", "citys": "Tejgaon (Military)"},
+    },
+
+    "IN":{
+    "DEL": {"name": "Indira Gandhi International Airport", "citys": "Delhi"},
+    "BOM": {"name": "Chhatrapati Shivaji Maharaj International Airport", "citys": "Mumbai"},
+    "BLR": {"name": "Kempegowda International Airport", "citys": "Bengaluru"},
+    "MAA": {"name": "Chennai International Airport", "citys": "Chennai"},
+    "CCU": {"name": "Netaji Subhas Chandra Bose International Airport", "citys": "Kolkata"},
+    "HYD": {"name": "Rajiv Gandhi International Airport", "citys": "Hyderabad"},
+    "COK": {"name": "Cochin International Airport", "citys": "Kochi"},
+    "AMD": {"name": "Sardar Vallabhbhai Patel International Airport", "citys": "Ahmedabad"},
+    "GOI": {"name": "Goa International Airport", "citys": "Goa"},
+    "BLR": {"name": "Kempegowda International Airport", "citys": "Bengaluru"},
+    "PNQ": {"name": "Pune International Airport", "citys": "Pune"},
+    "JAI": {"name": "Jaipur International Airport", "citys": "Jaipur"},
+    "SXR": {"name": "Srinagar International Airport", "citys": "Srinagar"},
+    "IXJ": {"name": "Jammu Airport", "citys": "Jammu"},
+    "IXB": {"name": "Bagdogra Airport", "citys": "Bagdogra"},
+    "IXA": {"name": "Agartala Airport", "citys": "Agartala"},
+    "IXC": {"name": "Chandigarh International Airport", "citys": "Chandigarh"},
+    "IXE": {"name": "Mangaluru International Airport", "citys": "Mangaluru"},
+    "IXM": {"name": "Madurai International Airport", "citys": "Madurai"},
+    "IXR": {"name": "Birsa Munda Airport", "citys": "Ranchi"},
+    "IXS": {"name": "Silchar Airport", "citys": "Silchar"},
+    "IXD": {"name": "Prayagraj Airport", "citys": "Prayagraj"},
+    "IXL": {"name": "Leh Kushok Bakula Rimpochee Airport", "citys": "Leh"},
+    "IXG": {"name": "Belagavi Airport", "citys": "Belagavi"},
+    "IXH": {"name": "Hubli Airport", "citys": "Hubli"},
+    "IXO": {"name": "Dibrugarh Airport", "citys": "Dibrugarh"},
+    "IXP": {"name": "Pathankot Airport", "citys": "Pathankot"},
+    "IXQ": {"name": "Jorhat Airport", "citys": "Jorhat"},
+    "IXZ": {"name": "Veer Savarkar International Airport", "citys": "Port Blair"},
+    "JRH": {"name": "Jorhat Airport", "citys": "Jorhat"},
+    "JSA": {"name": "Jaisalmer Airport", "citys": "Jaisalmer"},
+    "JGB": {"name": "Jagdalpur Airport", "citys": "Jagdalpur"},
+    "JLR": {"name": "Jabalpur Airport", "citys": "Jabalpur"},
+    "JOD": {"name": "Jodhpur Airport", "citys": "Jodhpur"},
+    "JAI": {"name": "Jaipur International Airport", "citys": "Jaipur"},
+    "JAM": {"name": "Jamnagar Airport", "citys": "Jamnagar"},
+    "JAM": {"name": "Jamnagar Airport", "citys": "Jamnagar"},
+    },
+
+    "AE":{
+    "DXB": {"name": "Dubai International Airport", "citys": "Dubai"},
+    "DWC": {"name": "Al Maktoum International Airport (Dubai World Central)", "citys": "Dubai"},
+    "NHD": {"name": "Al Minhad Air Base", "citys": "Dubai"},
+    "DCG": {"name": "Dubai Creek SPB", "citys": "Dubai"},
+    },
+
+    "PK":{
+    "ISB": {"name": "Islamabad International Airport", "citys": "Islamabad"},
+    "KHI": {"name": "Jinnah International Airport", "citys": "Karachi"},
+    "LHE": {"name": "Allama Iqbal International Airport", "citys": "Lahore"},
+    "PEW": {"name": "Bacha Khan International Airport", "citys": "Peshawar"},
+    "MUX": {"name": "Multan International Airport", "citys": "Multan"},
+    "SKT": {"name": "Sialkot International Airport", "citys": "Sialkot"},
+    "GWD": {"name": "Gwadar International Airport", "citys": "Gwadar"},
+    "DEA": {"name": "Dera Ghazi Khan International Airport", "citys": "Dera Ghazi Khan"},
+    "LYP": {"name": "Faisalabad International Airport", "citys": "Faisalabad"},
+    "UET": {"name": "Quaid-e-Azam International Airport", "citys": "Quetta"},
+    "RYK": {"name": "Shaikh Zayed International Airport", "citys": "Rahim Yar Khan"},
+    "SKZ": {"name": "Begum Nusrat Bhutto International Airport", "citys": "Sukkur"},
+    "TUK": {"name": "Turbat International Airport", "citys": "Turbat"},
+    "KDU": {"name": "Skardu International Airport", "citys": "Skardu"},
+    "GIL": {"name": "Gilgit Airport", "citys": "Gilgit"},
+    "MFG": {"name": "Muzaffarabad Airport", "citys": "Muzaffarabad"},
+    "MJD": {"name": "Mohenjo-daro Airport", "citys": "Mohenjo-daro"},
+    "WNS": {"name": "Nawabshah Airport", "citys": "Nawabshah"},
+    "JIW": {"name": "Jiwani Airport", "citys": "Jiwani"},
+    "KCF": {"name": "Kadanwari Airport", "citys": "Kadanwari"},
+    "KBH": {"name": "Kalat Airport", "citys": "Kalat"},
+    "KDD": {"name": "Khuzdar Airport", "citys": "Khuzdar"},
+    "OHT": {"name": "Kohat Airport", "citys": "Kohat"},
+    "LRG": {"name": "Loralai Airport", "citys": "Loralai"},
+    "XJM": {"name": "Mangla Airport", "citys": "Mangla"},
+    "HRA": {"name": "Mansehra Airport", "citys": "Mansehra"},
+    "MWD": {"name": "Mianwali Airport", "citys": "Mianwali"},
+    "MPD": {"name": "Mirpur Khas Airport", "citys": "Mirpur Khas"},
+    "NHS": {"name": "Nushki Airport", "citys": "Nushki"},
+    "ORW": {"name": "Ormara Airport", "citys": "Ormara"},
+    "PJG": {"name": "Panjgur Airport", "citys": "Panjgur"},
+    "PAJ": {"name": "Para Chinar Airport", "citys": "Para Chinar"},
+    "PSI": {"name": "Pasni Airport", "citys": "Pasni"},
+    "RAZ": {"name": "Rawalakot Airport", "citys": "Rawalakot"},
+    "SDT": {"name": "Saidu Sharif Airport", "citys": "Saidu Sharif"},
+    "SWN": {"name": "Sahiwal Airport", "citys": "Sahiwal"},
+    "SYW": {"name": "Sehwan Sharif Airport", "citys": "Sehwan Sharif"},
+    },
+
+    "BT":{
+    "PBH": {"name": "Paro International Airport", "citys": "Paro"},
+    "GLU": {"name": "Gelephu Airport", "citys": "Gelephu"},
+    "BUT": {"name": "Bathpalathang Airport", "citys": "Jakar"},
+    "YON": {"name": "Yongphulla Airport", "citys": "Trashigang"},
+    },
+
+    "NP":{
+    "KTM": {"name": "Tribhuvan International Airport", "citys": "Kathmandu"},
+    "PKR": {"name": "Pokhara International Airport", "citys": "Pokhara"},
+    "BWA": {"name": "Gautam Buddha International Airport", "citys": "Lumbini"},
+    },
+
+    "MM":{
+    "RGN": {"name": "Yangon International Airport", "citys": "Yangon"},
+    "MDL": {"name": "Mandalay International Airport", "citys": "Mandalay"},
+    "NYT": {"name": "Nay Pyi Taw International Airport", "citys": "Nay Pyi Taw"},
+    },
+
+    "LK":{
+    "CMB": {"name": "Bandaranaike International Airport", "citys": "Katunayake"},
+    "HRI": {"name": "Mattala Rajapaksa International Airport", "citys": "Mattala"},
+    "RML": {"name": "Ratmalana International Airport", "citys": "Ratmalana"},
+    },
+
+    "MY":{
+    "KUL": {"name": "Kuala Lumpur International Airport", "citys": "Kuala Lumpur"},
+    "KCH": {"name": "Kuching International Airport", "citys": "Kuching"},
+    "LGK": {"name": "Langkawi International Airport", "citys": "Langkawi"},
+    "PEN": {"name": "Penang International Airport", "citys": "Penang"},
+    "BKI": {"name": "Kota Kinabalu International Airport", "citys": "Kota Kinabalu"},
+    "JHB": {"name": "Senai International Airport", "citys": "Johor Bahru"},
+    },
+
+    "ID":{
+    "CGK": {"name": "Soekarno–Hatta International Airport", "citys": "Jakarta"},
+    "DPS": {"name": "Ngurah Rai International Airport", "citys": "Denpasar"},
+    "SUB": {"name": "Juanda International Airport", "citys": "Surabaya"},
+    "KNO": {"name": "Kualanamu International Airport", "citys": "Medan"},
+    "UPG": {"name": "Sultan Hasanuddin International Airport", "citys": "Makassar"},
+    "PLM": {"name": "Sultan Mahmud Badaruddin II International Airport", "citys": "Palembang"},
+    "BPN": {"name": "Sepinggan International Airport", "citys": "Balikpapan"},
+    "YIA": {"name": "Yogyakarta International Airport", "citys": "Yogyakarta"},
+    "BTH": {"name": "Hang Nadim International Airport", "citys": "Batam"},
+    "PNK": {"name": "Supadio International Airport", "citys": "Pontianak"},
+    "BDJ": {"name": "Syamsudin Noor International Airport", "citys": "Banjarmasin"},
+    "HLP": {"name": "Halim Perdanakusuma International Airport", "citys": "Jakarta"},
+    "LOP": {"name": "Zainuddin Abdul Madjid International Airport", "citys": "Lombok"},
+    "SRG": {"name": "Achmad Yani International Airport", "citys": "Semarang"},
+    "BDO": {"name": "Husein Sastranegara International Airport", "citys": "Bandung"},
+    "SOC": {"name": "Adi Soemarmo International Airport", "citys": "Solo"},
+    "DJJ": {"name": "Sentani International Airport", "citys": "Jayapura"},
+    "AMQ": {"name": "Pattimura International Airport", "citys": "Ambon"},
+    "TRK": {"name": "Juwata International Airport", "citys": "Tarakan"},
+    },
+
+    "BG":{
+    "ABZ": {"name": "Aberdeen Airport", "citys": "Aberdeen"},
+    "BFS": {"name": "Belfast International Airport", "citys": "Belfast"},
+    "BHX": {"name": "Birmingham Airport", "citys": "Birmingham"},
+    "BOH": {"name": "Bournemouth Airport", "citys": "Bournemouth"},
+    "BRI": {"name": "Bristol Airport", "citys": "Bristol"},
+    "EDI": {"name": "Edinburgh Airport", "citys": "Edinburgh"},
+    "GLA": {"name": "Glasgow Airport", "citys": "Glasgow"},
+    "LBA": {"name": "Leeds Bradford Airport", "citys": "Leeds/Bradford"},
+    "LHR": {"name": "Heathrow Airport", "citys": "London"},
+    "LGW": {"name": "Gatwick Airport", "citys": "London"},
+    "LTN": {"name": "Luton Airport", "citys": "London"},
+    "MAN": {"name": "Manchester Airport", "citys": "Manchester"},
+    "STN": {"name": "Stansted Airport", "citys": "London"},
+    "PIK": {"name": "Glasgow Prestwick Airport", "citys": "Glasgow"},
+    "EMA": {"name": "East Midlands Airport", "citys": "Nottingham/Derby"},
+    "NCL": {"name": "Newcastle Airport", "citys": "Newcastle upon Tyne"},
+    "SEN": {"name": "Southend Airport", "citys": "London"},
+    "SOU": {"name": "Southampton Airport", "citys": "Southampton"},
+    },
+
+    "US":{
+    "JFK": {"name": "John F. Kennedy International Airport", "citys": "New York citys"},
+    "LAX": {"name": "Los Angeles International Airport", "citys": "Los Angeles"},
+    "ORD": {"name": "O'Hare International Airport", "citys": "Chicago"},
+    "ATL": {"name": "Hartsfield–Jackson Atlanta International Airport", "citys": "Atlanta"},
+    "DFW": {"name": "Dallas/Fort Worth International Airport", "citys": "Dallas/Fort Worth"},
+    "SFO": {"name": "San Francisco International Airport", "citys": "San Francisco"},
+    "MIA": {"name": "Miami International Airport", "citys": "Miami"},
+    "DEN": {"name": "Denver International Airport", "citys": "Denver"},
+    "BOS": {"name": "Logan International Airport", "citys": "Boston"},
+    "SEA": {"name": "Seattle–Tacoma International Airport", "citys": "Seattle"},
+    "EWR": {"name": "Newark Liberty International Airport", "citys": "Newark"},
+    "IAH": {"name": "George Bush Intercontinental Airport", "citys": "Houston"},
+    "PHX": {"name": "Phoenix Sky Harbor International Airport", "citys": "Phoenix"},
+    "CLT": {"name": "Charlotte Douglas International Airport", "citys": "Charlotte"},
+    "LAS": {"name": "Harry Reid International Airport", "citys": "Las Vegas"},
+    "MCO": {"name": "Orlando International Airport", "citys": "Orlando"},
+    "DTW": {"name": "Detroit Metropolitan Airport", "citys": "Detroit"},
+    "MSP": {"name": "Minneapolis–Saint Paul International Airport", "citys": "Minneapolis–Saint Paul"},
+    "LGA": {"name": "LaGuardia Airport", "citys": "New York citys"},
+    "FLL": {"name": "Fort Lauderdale–Hollywood International Airport", "citys": "Fort Lauderdale"},
+    },
+
+    "IT":{
+    "FCO": {"name": "Rome–Fiumicino International Airport \"Leonardo da Vinci\"", "citys": "Rome"},
+    "MXP": {"name": "Milan Malpensa Airport", "citys": "Milan"},
+    "LIN": {"name": "Milan Linate Airport", "citys": "Milan"},
+    "BGY": {"name": "Il Caravaggio International Airport (Bergamo)", "citys": "Bergamo"},
+    "VCE": {"name": "Venice Marco Polo Airport", "citys": "Venice"},
+    "BLQ": {"name": "Bologna Guglielmo Marconi Airport", "citys": "Bologna"},
+    "NAP": {"name": "Naples International Airport", "citys": "Naples"},
+    "PSA": {"name": "Pisa International Airport \"Galileo Galilei\"", "citys": "Pisa"},
+    "TRN": {"name": "Turin Airport \"Sandro Pertini\"", "citys": "Turin"},
+    "CTA": {"name": "Catania–Fontanarossa Airport \"Vincenzo Bellini\"", "citys": "Catania"},
+    "PMO": {"name": "Palermo Airport \"Falcone Borsellino\"", "citys": "Palermo"},
+    "BRI": {"name": "Bari Karol Wojtyła Airport", "citys": "Bari"},
+    "FLR": {"name": "Florence Airport, Peretola", "citys": "Florence"},
+    "GOA": {"name": "Genoa Cristoforo Colombo Airport", "citys": "Genoa"},
+    "CAG": {"name": "Cagliari Elmas Airport", "citys": "Cagliari"},
+    "CIA": {"name": "Rome Ciampino International Airport", "citys": "Rome"},
+    "BDS": {"name": "Brindisi Airport \"Salento\"", "citys": "Brindisi"},
+    "VRN": {"name": "Verona Villafranca Airport", "citys": "Verona"},
+    "TRS": {"name": "Trieste Airport \"Friuli Venezia Giulia\"", "citys": "Trieste"},
+    "AOI": {"name": "Ancona Airport \"Marche\"", "citys": "Ancona"},
+    },
+
+    "NZ":{
+    "AKL": {"name": "Auckland Airport", "citys": "Auckland"},
+    "CHC": {"name": "Christchurch International Airport", "citys": "Christchurch"},
+    "WLG": {"name": "Wellington International Airport", "citys": "Wellington"},
+    "ZQN": {"name": "Queenstown Airport", "citys": "Queenstown"},
+    "DUD": {"name": "Dunedin Airport", "citys": "Dunedin"},
+    "BHE": {"name": "Marlborough Airport (Blenheim)", "citys": "Blenheim"},
+    "GIS": {"name": "Gisborne Airport", "citys": "Gisborne"},
+    "HLZ": {"name": "Hamilton International Airport", "citys": "Hamilton"},
+    "NPL": {"name": "New Plymouth Airport", "citys": "New Plymouth"},
+    "PMR": {"name": "Palmerston North Airport", "citys": "Palmerston North"},
+    "ROT": {"name": "Rotorua Airport", "citys": "Rotorua"},
+    "TRG": {"name": "Tauranga Airport", "citys": "Tauranga"},
+    "TIU": {"name": "Timaru Airport", "citys": "Timaru"},
+    "WRE": {"name": "Whangarei Airport", "citys": "Whangarei"},
+    "WAG": {"name": "Wanganui Airport", "citys": "Wanganui"},
+    "CHT": {"name": "Chatham Islands (Tuuta) Airport", "citys": "Chatham Islands"},
+    },
+
+    "FI":{
+    "HEL": {"name": "Helsinki-Vantaa Airport", "citys": "Helsinki"},
+    "OUL": {"name": "Oulu Airport", "citys": "Oulu"},
+    "RVN": {"name": "Rovaniemi Airport", "citys": "Rovaniemi"},
+    "TKU": {"name": "Turku Airport", "citys": "Turku"},
+    "TMP": {"name": "Tampere-Pirkkala Airport", "citys": "Tampere"},
+    "KTT": {"name": "Kittilä Airport", "citys": "Kittilä"}
+    },
+
+    "CH":{
+    "ZRH": {"name": "Zurich Airport", "citys": "Zurich"},
+    "GVA": {"name": "Geneva Airport", "citys": "Geneva"},
+    "BSL": {"name": "EuroAirport Basel Mulhouse Freiburg", "citys": "Basel"},
+    },
+
+    "RO":{
+    "OTP": {"name": "Henri Coandă International Airport", "citys": "Bucharest"},
+    "ART": {"name": "Arad International Airport", "citys": "Arad"},
+    "CLJ": {"name": "Cluj International Airport", "citys": "Cluj-Napoca"},
+    "CRA": {"name": "Craiova International Airport", "citys": "Craiova"},
+    "IAS": {"name": "Iași International Airport", "citys": "Iași"},
+    "SBZ": {"name": "Sibiu International Airport", "citys": "Sibiu"},
+    "TGM": {"name": "Târgu Mureș International Airport", "citys": "Târgu Mureș"},
+    "TSR": {"name": "Timișoara International Airport", "citys": "Timișoara"},
+    },
+
+    "ZA":{
+    "JNB": {"name": "O.R. Tambo International Airport", "citys": "Johannesburg"},
+    "CPT": {"name": "Cape Town International Airport", "citys": "Cape Town"},
+    "DUR": {"name": "King Shaka International Airport", "citys": "Durban"},
+    "PLZ": {"name": "Port Elizabeth International Airport", "citys": "Gqeberha (formerly Port Elizabeth)"},
+    "BFN": {"name": "Bram Fischer International Airport", "citys": "Bloemfontein"},
+    "KIM": {"name": "Kimberley Airport", "citys": "Kimberley"},
+    },
+
+    "SA":{
+    "JED": {"name": "King Abdulaziz International Airport", "citys": "Jeddah"},
+    "RUH": {"name": "King Khalid International Airport", "citys": "Riyadh"},
+    "DMM": {"name": "King Fahd International Airport", "citys": "Dammam"},
+    "MED": {"name": "Prince Mohammad bin Abdulaziz International Airport", "citys": "Medina"}
+    },
+
+    "SG":{
+    "SIN": {"name": "Singapore Changi Airport", "citys": "Singapore"},
+    "XSP": {"name": "Seletar Airport", "citys": "Singapore"},
+    },
+
+    "TH":{
+    "BKK": {"name": "Suvarnabhumi Airport", "citys": "Bangkok"},
+    "DMK": {"name": "Don Mueang International Airport", "citys": "Bangkok"},
+    "HKT": {"name": "Phuket International Airport", "citys": "Phuket"},
+    "CNX": {"name": "Chiang Mai International Airport", "citys": "Chiang Mai"},
+    "USM": {"name": "Samui Airport", "citys": "Ko Samui"},
+    "KBV": {"name": "Krabi International Airport", "citys": "Krabi"},
+    "CEI": {"name": "Mae Fah Luang - Chiang Rai International Airport", "citys": "Chiang Rai"},
+    "HDY": {"name": "Hat Yai International Airport", "citys": "Hat Yai"},
+    "UTP": {"name": "U-Tapao Rayong-Pattaya International Airport", "citys": "Pattaya"},
+    "UTH": {"name": "Udon Thani International Airport", "citys": "Udon Thani"},
+    },
+
+    "VN":{
+    "SGN": {"name": "Tan Son Nhat International Airport", "citys": "Ho Chi Minh citys"},
+    "HAN": {"name": "Noi Bai International Airport", "citys": "Hanoi"},
+    "DAD": {"name": "Da Nang International Airport", "citys": "Da Nang"},
+    "CXR": {"name": "Cam Ranh International Airport", "citys": "Nha Trang"},
+    "HUI": {"name": "Phu Bai International Airport", "citys": "Hue"},
+    "PQC": {"name": "Phu Quoc International Airport", "citys": "Phu Quoc"},
+    "VCA": {"name": "Can Tho International Airport", "citys": "Can Tho"},
+    "DLI": {"name": "Lien Khuong Airport", "citys": "Da Lat"},
+    "VCS": {"name": "Co Ong Airport", "citys": "Con Dao"},
+    },
+
+    "EG":{
+    "CAI": {"name": "Cairo International Airport", "citys": "Cairo"},
+    "HRG": {"name": "Hurghada International Airport", "citys": "Hurghada"},
+    "SSH": {"name": "Sharm El Sheikh International Airport", "citys": "Sharm El Sheikh"},
+    "LXR": {"name": "Luxor International Airport", "citys": "Luxor"},
+    "HBE": {"name": "Borg El Arab International Airport", "citys": "Alexandria"},
+    "RMF": {"name": "Marsa Alam International Airport", "citys": "Marsa Alam"},
+    "ASW": {"name": "Aswan International Airport", "citys": "Aswan"},
+    "SPX": {"name": "Sphinx International Airport", "citys": "Giza"},
+    },
+
+    "MT":{
+    "MLA": {"name": "Malta International Airport", "citys": "Valletta"},
+    },
+
+    "HU":{
+    "BUD": {"name": "Budapest Ferenc Liszt International Airport", "citys": "Budapest"},
+    "DEB": {"name": "Debrecen International Airport", "citys": "Debrecen"},
+    "SOB": {"name": "Hévíz–Balaton Airport", "citys": "Sármellék"},
+    },
+
+    "NL":{
+    "AMS": {"name": "Amsterdam Airport Schiphol", "citys": "Amsterdam"},
+    "EIN": {"name": "Eindhoven Airport", "citys": "Eindhoven"},
+    "RTM": {"name": "Rotterdam The Hague Airport", "citys": "Rotterdam"},
+    "MST": {"name": "Maastricht Aachen Airport", "citys": "Maastricht"},
+    "GRQ": {"name": "Groningen Airport Eelde", "citys": "Groningen"},
+    },
+
+    "AU":{
+    "SYD": {"name": "Sydney Kingsford Smith Airport", "citys": "Sydney"},
+    "MEL": {"name": "Melbourne Airport", "citys": "Melbourne"},
+    "BNE": {"name": "Brisbane Airport", "citys": "Brisbane"},
+    "PER": {"name": "Perth Airport", "citys": "Perth"},
+    "ADL": {"name": "Adelaide Airport", "citys": "Adelaide"},
+    "OOL": {"name": "Gold Coast Airport", "citys": "Gold Coast"},
+    "CNS": {"name": "Cairns Airport", "citys": "Cairns"},
+    "DRW": {"name": "Darwin International Airport", "citys": "Darwin"},
+    "CBR": {"name": "Canberra Airport", "citys": "Canberra"},
+    "HBA": {"name": "Hobart International Airport", "citys": "Hobart"},
+    },
+
+    "AT":{
+    "VIE": {"name": "Vienna International Airport", "citys": "Vienna"},
+    "SZG": {"name": "Salzburg Airport", "citys": "Salzburg"},
+    "GRZ": {"name": "Graz Airport", "citys": "Graz"},
+    "INN": {"name": "Innsbruck Airport", "citys": "Innsbruck"},
+    "LNZ": {"name": "Linz Airport", "citys": "Linz"},
+    "KLU": {"name": "Klagenfurt Airport", "citys": "Klagenfurt"},
+    },
+
+    "AF":{
+    "KBL": {"name": "Hamid Karzai International Airport", "citys": "Kabul"},
+    "KDH": {"name": "Kandahar International Airport", "citys": "Kandahar"},
+    "HER": {"name": "Herat International Airport", "citys": "Herat"},
+    "MZR": {"name": "Mazar-i-Sharif International Airport", "citys": "Mazar-i-Sharif"},
+    },
+
+    "AL":{
+    "TIA": {"name": "Tirana International Airport Nënë Tereza", "citys": "Tirana"},
+    },
+
+    "DZ":{
+    "ALG": {"name": "Houari Boumediene Airport", "citys": "Algiers"},
+    "ORN": {"name": "Oran Es Sénia Airport", "citys": "Oran"},
+    "CZL": {"name": "Mohamed Boudiaf International Airport", "citys": "Constantine"},
+    "AAS": {"name": "Mostaganem Airport", "citys": "Mostaganem"},
+    "AAE": {"name": "Annaba Rabah Bitat Airport", "citys": "Annaba"},
+    "TMR": {"name": "Tamanrasset Airport", "citys": "Tamanrasset"},
+    "GHA": {"name": "Noumerat - Moufdi Zakaria Airport", "citys": "Ghardaïa"},
+    "BJA": {"name": "Soummam Abane Ramdane Airport", "citys": "Béjaïa"},
+    },
+
+    "AQ":{
+    "NZIR": {"name": "Pegasus Field", "citys": "McMurdo Station"},
+    "NZSP": {"name": "Phoenix Airfield", "citys": "McMurdo Station"},
+    "AT99": {"name": "Union Glacier Blue-Ice Runway", "citys": "Union Glacier Camp"},
+    },
+
+    "AR":{
+    "EZE": {"name": "Ministro Pistarini International Airport", "citys": "Buenos Aires"},
+    "AEP": {"name": "Aeroparque Jorge Newbery", "citys": "Buenos Aires"},
+    "COR": {"name": "Ingeniero Aeronáutico Ambrosio L.V. Taravella International Airport", "citys": "Córdoba"},
+    "MDZ": {"name": "Governor Francisco Gabrielli International Airport", "citys": "Mendoza"},
+    "IGR": {"name": "Cataratas del Iguazú International Airport", "citys": "Puerto Iguazú"},
+    "ROS": {"name": "Rosario – Islas Malvinas International Airport", "citys": "Rosario"},
+    "SLA": {"name": "Martín Miguel de Güemes International Airport", "citys": "Salta"},
+    "BRC": {"name": "San Carlos de Bariloche Airport", "citys": "San Carlos de Bariloche"},
+    "TUC": {"name": "Teniente General Benjamín Matienzo International Airport", "citys": "San Miguel de Tucumán"},
+    },
+
+    "AM":{
+    "EVN": {"name": "Zvartnots International Airport", "citys": "Yerevan"},
+    "LWN": {"name": "Shirak International Airport", "citys": "Gyumri"},
+    },
+
+    "BH":{
+    "BAH": {"name": "Bahrain International Airport", "citys": "Manama"},
+    },
+
+    "BY":{
+    "MSQ": {"name": "Minsk National Airport", "citys": "Minsk"}
+    },
+
+    "BE":{
+    "BRU": {"name": "Brussels Airport", "citys": "Brussels"},
+    "CRL": {"name": "Brussels South Charleroi Airport", "citys": "Charleroi"},
+    "OST": {"name": "Ostend–Bruges International Airport", "citys": "Ostend"},
+    "ANR": {"name": "Antwerp International Airport", "citys": "Antwerp"},
+    },
+
+    "BM":{
+    "BDA": {"name": "L.F. Wade International Airport", "citys": "St. George's"},
+    },
+
+    "BO":{
+    "VVI": {"name": "Viru Viru International Airport", "citys": "Santa Cruz de la Sierra"},
+    "LPB": {"name": "El Alto International Airport", "citys": "La Paz"},
+    "CBB": {"name": "Jorge Wilstermann International Airport", "citys": "Cochabamba"},
+    },
+
+    "BW":{
+    "GBE": {"name": "Sir Seretse Khama International Airport", "citys": "Gaborone"},
+    "FRW": {"name": "Francistown Airport", "citys": "Francistown"},
+    },
+
+    "AI":{
+    "AXA": {"name": "Clayton J. Lloyd International Airport", "citys": "The Valley"},
+    },
+
+    "BR":{
+    "GRU": {"name": "São Paulo/Guarulhos–Governador André Franco Montoro International Airport", "citys": "São Paulo"},
+    "GIG": {"name": "Rio de Janeiro/Galeão–Antonio Carlos Jobim International Airport", "citys": "Rio de Janeiro"},
+    "BSB": {"name": "Brasília International Airport", "citys": "Brasília"},
+    "SSA": {"name": "Salvador Deputado Luís Eduardo Magalhães International Airport", "citys": "Salvador"},
+    "POA": {"name": "Salgado Filho Porto Alegre International Airport", "citys": "Porto Alegre"},
+    "REC": {"name": "Recife/Guararapes–Gilberto Freyre International Airport", "citys": "Recife"},
+    "FOR": {"name": "Pinto Martins – Fortaleza International Airport", "citys": "Fortaleza"},
+    "MAO": {"name": "Eduardo Gomes International Airport", "citys": "Manaus"},
+    "FLN": {"name": "Hercílio Luz International Airport", "citys": "Florianópolis"},
+    "CWB": {"name": "Afonso Pena International Airport", "citys": "Curitiba"},
+    },
+
+    "BN":{
+    "BWN": {"name": "Brunei International Airport", "citys": "Bandar Seri Begawan"},
+    },
+
+    "BG":{
+    "SOF": {"name": "Sofia Airport", "citys": "Sofia"},
+    "BOJ": {"name": "Burgas Airport", "citys": "Burgas"},
+    "VAR": {"name": "Varna Airport", "citys": "Varna"},
+    "PDV": {"name": "Plovdiv Airport", "citys": "Plovdiv"},
+    },
+
+    "KH":{
+    "PNH": {"name": "Phnom Penh International Airport", "citys": "Phnom Penh"},
+    "REP": {"name": "Siem Reap International Airport", "citys": "Siem Reap"},
+    "KOS": {"name": "Sihanoukville International Airport", "citys": "Sihanoukville"},
+    },
+
+    "CM":{
+    "DLA": {"name": "Douala International Airport", "citys": "Douala"},
+    "NSI": {"name": "Yaoundé Nsimalen International Airport", "citys": "Yaoundé"},
+    "GOU": {"name": "Garoua International Airport", "citys": "Garoua"},
+    },
+
+    "CA":{
+    "YYZ": {"name": "Toronto Pearson International Airport", "citys": "Toronto"},
+    "YVR": {"name": "Vancouver International Airport", "citys": "Vancouver"},
+    "YUL": {"name": "Montréal–Pierre Elliott Trudeau International Airport", "citys": "Montreal"},
+    "YYC": {"name": "Calgary International Airport", "citys": "Calgary"},
+    "YEG": {"name": "Edmonton International Airport", "citys": "Edmonton"},
+    "YOW": {"name": "Ottawa Macdonald–Cartier International Airport", "citys": "Ottawa"},
+    "YQB": {"name": "Québec citys Jean Lesage International Airport", "citys": "Quebec citys"},
+    "YWG": {"name": "Winnipeg James Armstrong Richardson International Airport", "citys": "Winnipeg"},
+    "YHZ": {"name": "Halifax Stanfield International Airport", "citys": "Halifax"},
+    "YQT": {"name": "Thunder Bay International Airport", "citys": "Thunder Bay"},
+    },
+
+    "CL":{
+    "SCL": {"name": "Comodoro Arturo Merino Benítez International Airport", "citys": "Santiago"},
+    "IPC": {"name": "Mataveri International Airport", "citys": "Easter Island"},
+    "PUQ": {"name": "Presidente Carlos Ibáñez del Campo International Airport", "citys": "Punta Arenas"},
+    "CPO": {"name": "Desierto de Atacama Airport", "citys": "Copiapó"},
+    "CCP": {"name": "Carriel Sur International Airport", "citys": "Concepción"},
+    "PMC": {"name": "El Tepual International Airport", "citys": "Puerto Montt"},
+    },
+
+    "CN":{
+    "PEK": {"name": "Beijing Capital International Airport", "citys": "Beijing"},
+    "PVG": {"name": "Shanghai Pudong International Airport", "citys": "Shanghai"},
+    "CAN": {"name": "Guangzhou Baiyun International Airport", "citys": "Guangzhou"},
+    "CTU": {"name": "Chengdu Shuangliu International Airport", "citys": "Chengdu"},
+    "SZX": {"name": "Shenzhen Bao'an International Airport", "citys": "Shenzhen"},
+    "CKG": {"name": "Chongqing Jiangbei International Airport", "citys": "Chongqing"},
+    "XIY": {"name": "Xi'an Xianyang International Airport", "citys": "Xi'an"},
+    "HGH": {"name": "Hangzhou Xiaoshan International Airport", "citys": "Hangzhou"},
+    "XMN": {"name": "Xiamen Gaoqi International Airport", "citys": "Xiamen"},
+    "KMG": {"name": "Kunming Changshui International Airport", "citys": "Kunming"},
+    "CSX": {"name": "Changsha Huanghua International Airport", "citys": "Changsha"},
+    "WUH": {"name": "Wuhan Tianhe International Airport", "citys": "Wuhan"},
+    "TAO": {"name": "Qingdao Jiaodong International Airport", "citys": "Qingdao"},
+    "TSN": {"name": "Tianjin Binhai International Airport", "citys": "Tianjin"},
+    "CGO": {"name": "Zhengzhou Xinzheng International Airport", "citys": "Zhengzhou"},
+    },
+
+    "CO":{
+    "BOG": {"name": "El Dorado International Airport", "citys": "Bogotá"},
+    "MDE": {"name": "José María Córdova International Airport", "citys": "Medellín"},
+    "CLO": {"name": "Alfonso Bonilla Aragón International Airport", "citys": "Cali"},
+    "CTG": {"name": "Rafael Núñez International Airport", "citys": "Cartagena"},
+    "BAQ": {"name": "Ernesto Cortissoz International Airport", "citys": "Barranquilla"},
+    "SMR": {"name": "Simón Bolívar International Airport", "citys": "Santa Marta"},
+    "PEI": {"name": "Matecaña International Airport", "citys": "Pereira"},
+    "ADZ": {"name": "Gustavo Rojas Pinilla International Airport", "citys": "San Andrés"},
+    },
+
+    "KM":{
+    "HAH": {"name": "Prince Said Ibrahim International Airport", "citys": "Moroni"},
+    },
+    
+    "CG":{
+    "BZV": {"name": "Maya-Maya Airport", "citys": "Brazzaville"},
+    "PNR": {"name": "Pointe-Noire Airport", "citys": "Pointe-Noire"},
+    },
+
+    "CD":{
+    "FIH": {"name": "N'djili International Airport", "citys": "Kinshasa"},
+    "FBM": {"name": "Lubumbashi International Airport", "citys": "Lubumbashi"},
+    "GOM": {"name": "Goma International Airport", "citys": "Goma"},
+    "FKI": {"name": "Bangoka International Airport", "citys": "Kisangani"},
+    "MJM": {"name": "Mbuji Mayi Airport", "citys": "Mbuji-Mayi"},
+    "KGA": {"name": "Kananga Airport", "citys": "Kananga"},
+    "KND": {"name": "Kindu Airport", "citys": "Kindu"},
+    },
+
+    "CR":{
+    "SJO": {"name": "Juan Santamaría International Airport", "citys": "San José"},
+    "LIR": {"name": "Daniel Oduber Quirós International Airport", "citys": "Liberia"},
+    },
+
+    "HR":{
+    "ZAG": {"name": "Franjo Tuđman Airport Zagreb", "citys": "Zagreb"},
+    "SPU": {"name": "Split Airport", "citys": "Split"},
+    "DBV": {"name": "Dubrovnik Airport", "citys": "Dubrovnik"},
+    "ZAD": {"name": "Zadar Airport", "citys": "Zadar"},
+    "PUY": {"name": "Pula Airport", "citys": "Pula"},
+    "RJK": {"name": "Rijeka Airport", "citys": "Rijeka"},
+    },
+
+    "CU":{
+    "HAV": {"name": "José Martí International Airport", "citys": "Havana"},
+    "VRA": {"name": "Juan Gualberto Gómez Airport", "citys": "Varadero"},
+    "SNU": {"name": "Abel Santamaría Airport", "citys": "Santa Clara"},
+    "CMW": {"name": "Ignacio Agramonte International Airport", "citys": "Camagüey"},
+    "HOG": {"name": "Frank País Airport", "citys": "Holguín"},
+    "SCU": {"name": "Antonio Maceo Airport", "citys": "Santiago de Cuba"},
+    },
+
+    "CY":{
+    "LCA": {"name": "Larnaca International Airport", "citys": "Larnaca"},
+    "PFO": {"name": "Paphos International Airport", "citys": "Paphos"},
+    },
+
+    "DK":{
+    "CPH": {"name": "Copenhagen Airport", "citys": "Copenhagen"},
+    "BLL": {"name": "Billund Airport", "citys": "Billund"},
+    "AAL": {"name": "Aalborg Airport", "citys": "Aalborg"},
+    "AAR": {"name": "Aarhus Airport", "citys": "Aarhus"},
+    },
+
+    "EC":{
+    "UIO": {"name": "Mariscal Sucre International Airport", "citys": "Quito"},
+    "GYE": {"name": "José Joaquín de Olmedo International Airport", "citys": "Guayaquil"},
+    "MEC": {"name": "Manta Airport", "citys": "Manta"},
+    "ATF": {"name": "San Cristobal Airport", "citys": "San Cristóbal Island"},
+    "GPS": {"name": "Seymour Airport", "citys": "Baltra Island"},
+    },
+
+    "EE":{
+    "TLL": {"name": "Tallinn Airport", "citys": "Tallinn"},
+    "TAY": {"name": "Tartu Airport", "citys": "Tartu"},
+    "URE": {"name": "Kuressaare Airport", "citys": "Kuressaare"},
+    },
+
+    "ET":{
+    "ADD": {"name": "Addis Ababa Bole International Airport", "citys": "Addis Ababa"},
+    "DIR": {"name": "Aba Tenna Dejazmach Yilma International Airport", "citys": "Dire Dawa"},
+    "LLI": {"name": "Lalibela Airport", "citys": "Lalibela"},
+    "GDQ": {"name": "Gondar Airport", "citys": "Gondar"},
+    "BJR": {"name": "Bahir Dar Airport", "citys": "Bahir Dar"},
+    },
+
+    "FJ":{
+    "NAN": {"name": "Nadi International Airport", "citys": "Nadi"},
+    "SUV": {"name": "Nausori International Airport", "citys": "Suva"},
+    },
+
+    "FR":{
+    "CDG": {"name": "Charles de Gaulle Airport", "citys": "Paris"},
+    "ORY": {"name": "Paris Orly Airport", "citys": "Paris"},
+    "NCE": {"name": "Nice Côte d'Azur Airport", "citys": "Nice"},
+    "MRS": {"name": "Marseille Provence Airport", "citys": "Marseille"},
+    "LYS": {"name": "Lyon–Saint-Exupéry Airport", "citys": "Lyon"},
+    "TLS": {"name": "Toulouse–Blagnac Airport", "citys": "Toulouse"},
+    "BOD": {"name": "Bordeaux–Mérignac Airport", "citys": "Bordeaux"},
+    "FDF": {"name": "Martinique Aimé Césaire International Airport", "citys": "Fort-de-France"},
+    },
+
+
+    "GE":{
+    "TBS": {"name": "Tbilisi International Airport", "citys": "Tbilisi"},
+    "KUT": {"name": "David the Builder Kutaisi International Airport", "citys": "Kutaisi"},
+    "BUS": {"name": "Batumi International Airport", "citys": "Batumi"},
+    },
+
+    "DE":{
+    "FRA": {"name": "Frankfurt Airport", "citys": "Frankfurt"},
+    "MUC": {"name": "Munich Airport", "citys": "Munich"},
+    "DUS": {"name": "Düsseldorf Airport", "citys": "Düsseldorf"},
+    "BER": {"name": "Berlin Brandenburg Airport", "citys": "Berlin"},
+    "HAM": {"name": "Hamburg Airport", "citys": "Hamburg"},
+    "STR": {"name": "Stuttgart Airport", "citys": "Stuttgart"},
+    "CGN": {"name": "Cologne Bonn Airport", "citys": "Cologne"},
+    "LEJ": {"name": "Leipzig/Halle Airport", "citys": "Leipzig"},
+    "DTM": {"name": "Dortmund Airport", "citys": "Dortmund"},
+    "NUE": {"name": "Nuremberg Airport", "citys": "Nuremberg"},
+    "BRE": {"name": "Bremen Airport", "citys": "Bremen"},
+    },
+
+    "GH":{
+    "ACC": {"name": "Kotoka International Airport", "citys": "Accra"},
+    "TKQ": {"name": "Tarkwa Airport", "citys": "Tarkwa"},
+    "KMS": {"name": "Kumasi Airport", "citys": "Kumasi"},
+    "SDA": {"name": "Saturnia Airport", "citys": "Sunyani"},
+    "TDD": {"name": "Tamale Airport", "citys": "Tamale"},
+    },
+
+    "GR":{
+    "ATH": {"name": "Athens International Airport", "citys": "Athens"},
+    "SKG": {"name": "Thessaloniki Airport", "citys": "Thessaloniki"},
+    "CHQ": {"name": "Chania International Airport", "citys": "Chania"},
+    "HER": {"name": "Heraklion International Airport", "citys": "Heraklion"},
+    "RHO": {"name": "Rhodes International Airport", "citys": "Rhodes"},
+    "JMK": {"name": "Mykonos Airport", "citys": "Mykonos"},
+    "JTR": {"name": "Santorini (Thira) National Airport", "citys": "Santorini"},
+    "CFU": {"name": "Corfu International Airport", "citys": "Corfu"},
+    "KGS": {"name": "Kos International Airport", "citys": "Kos"},
+    "JOG": {"name": "Ioannina National Airport", "citys": "Ioannina"},
+    },
+
+    "GL":{
+    "SFJ": {"name": "Kangerlussuaq Airport", "citys": "Kangerlussuaq"},
+    "GOH": {"name": "Nuuk Airport", "citys": "Nuuk"},
+    "JAV": {"name": "Ilulissat Airport", "citys": "Ilulissat"},
+    "JHS": {"name": "Sisimiut Airport", "citys": "Sisimiut"},
+    "JFR": {"name": "Paamiut Airport", "citys": "Paamiut"},
+    "JEG": {"name": "Aasiaat Airport", "citys": "Aasiaat"},
+    "JJU": {"name": "Qaqortoq Heliport", "citys": "Qaqortoq"},
+    },
+
+    "GY":{
+    "GEO": {"name": "Cheddi Jagan International Airport", "citys": "Georgetown"},
+    "OGL": {"name": "Ogle Airport", "citys": "Georgetown"},
+    },
+
+    "HN":{
+    "TGU": {"name": "Toncontín International Airport", "citys": "Tegucigalpa"},
+    "SAP": {"name": "Ramón Villeda Morales International Airport", "citys": "San Pedro Sula"},
+    "RTB": {"name": "Juan Manuel Gálvez International Airport", "citys": "Roatán"},
+    },
+
+    "HK":{
+    "HKG": {"name": "Hong Kong International Airport", "citys": "Hong Kong"},
+    },
+
+    "IS":{
+    "KEF": {"name": "Keflavík International Airport", "citys": "Keflavík"},
+    "RKV": {"name": "Reykjavík Airport", "citys": "Reykjavík"},
+    "AEY": {"name": "Akureyri Airport", "citys": "Akureyri"},
+    "EGJ": {"name": "Egilsstaðir Airport", "citys": "Egilsstaðir"},
+    "BIK": {"name": "Bíldudalur Airport", "citys": "Bíldudalur"},
+    },
+
+    "IR":{
+    "IKA": {"name": "Imam Khomeini International Airport", "citys": "Tehran"},
+    "THR": {"name": "Mehrabad International Airport", "citys": "Tehran"},
+    "MHD": {"name": "Mashhad International Airport", "citys": "Mashhad"},
+    "SYZ": {"name": "Shiraz International Airport", "citys": "Shiraz"},
+    "ISF": {"name": "Isfahan International Airport", "citys": "Isfahan"},
+    "TBZ": {"name": "Tabriz International Airport", "citys": "Tabriz"},
+    "BND": {"name": "Bandar Abbas International Airport", "citys": "Bandar Abbas"},
+    "ABD": {"name": "Abadan International Airport", "citys": "Abadan"},
+    "AWZ": {"name": "Ahwaz International Airport", "citys": "Ahwaz"},
+    "KER": {"name": "Kerman Airport", "citys": "Kerman"},
+    },
+
+    "IQ":{
+    "BGW": {"name": "Baghdad International Airport", "citys": "Baghdad"},
+    "BSR": {"name": "Basra International Airport", "citys": "Basra"},
+    "EBL": {"name": "Erbil International Airport", "citys": "Erbil"},
+    "NJF": {"name": "Najaf International Airport", "citys": "Najaf"},
+    "OSM": {"name": "Mosul International Airport", "citys": "Mosul"},
+    "SUC": {"name": "Sulaymaniyah International Airport", "citys": "Sulaymaniyah"},
+    },
+
+    "IE":{
+    "DUB": {"name": "Dublin Airport", "citys": "Dublin"},
+    "ORK": {"name": "Cork Airport", "citys": "Cork"},
+    "SNN": {"name": "Shannon Airport", "citys": "Shannon"},
+    "NOC": {"name": "Ireland West Airport Knock", "citys": "Knock"},
+    },
+
+    "IL":{
+    "TLV": {"name": "Ben Gurion Airport", "citys": "Tel Aviv"},
+    "VDA": {"name": "Ramon Airport", "citys": "Eilat"},
+    "HFA": {"name": "Haifa Airport", "citys": "Haifa"},
+    },
+
+    "JM":{
+    "KIN": {"name": "Norman Manley International Airport", "citys": "Kingston"},
+    "MBJ": {"name": "Sangster International Airport", "citys": "Montego Bay"},
+    "OCJ": {"name": "Ian Fleming International Airport", "citys": "Ocho Rios"},
+    },
+
+    "JP":{
+    "NRT": {"name": "Narita International Airport", "citys": "Tokyo/Narita"},
+    "HND": {"name": "Tokyo Haneda Airport", "citys": "Tokyo"},
+    "KIX": {"name": "Kansai International Airport", "citys": "Osaka/Kansai"},
+    "ITM": {"name": "Osaka International Airport (Itami)", "citys": "Osaka/Itami"},
+    "NGO": {"name": "Chubu Centrair International Airport", "citys": "Nagoya"},
+    "CTS": {"name": "New Chitose Airport", "citys": "Sapporo"},
+    "FUK": {"name": "Fukuoka Airport", "citys": "Fukuoka"},
+    "OKA": {"name": "Naha Airport", "citys": "Okinawa"},
+    "SDJ": {"name": "Sendai International Airport", "citys": "Sendai"},
+    "HIJ": {"name": "Hiroshima Airport", "citys": "Hiroshima"},
+    "KOJ": {"name": "Kagoshima Airport", "citys": "Kagoshima"},
+    "KMJ": {"name": "Kumamoto Airport", "citys": "Kumamoto"},
+    },
+
+    "JO":{
+    "AMM": {"name": "Queen Alia International Airport", "citys": "Amman"},
+    "AQJ": {"name": "King Hussein International Airport", "citys": "Aqaba"},
+    },
+
+    "KZ":{
+    "ALA": {"name": "Almaty International Airport", "citys": "Almaty"},
+    "NQZ": {"name": "Nursultan Nazarbayev International Airport", "citys": "Astana"},
+    "SCO": {"name": "Aktau International Airport", "citys": "Aktau"},
+    "KGF": {"name": "Sary-Arka Airport", "citys": "Karaganda"},
+    "GUW": {"name": "Atyrau International Airport", "citys": "Atyrau"},
+    "CIT": {"name": "Shymkent International Airport", "citys": "Shymkent"},
+    "AKX": {"name": "Aktobe International Airport", "citys": "Aktobe"},
+    "KSN": {"name": "Kostanay Airport", "citys": "Kostanay"},
+    "UKK": {"name": "Oskemen Airport", "citys": "Oskemen"},
+    "URA": {"name": "Oral Ak Zhol Airport", "citys": "Oral"},
+    "HSA": {"name": "Hazret Sultan International Airport", "citys": "Turkistan"},
+    "DMB": {"name": "Taraz Airport", "citys": "Taraz"},
+    },
+    
+    "KE":{
+    "NBO": {"name": "Jomo Kenyatta International Airport", "citys": "Nairobi"},
+    "MBA": {"name": "Moi International Airport", "citys": "Mombasa"},
+    "KIS": {"name": "Kisumu International Airport", "citys": "Kisumu"},
+    "ELD": {"name": "Eldoret International Airport", "citys": "Eldoret"},
+    "LAU": {"name": "Lamu Airport", "citys": "Lamu"},
+    },
+
+    "KW":{
+    "KWI": {"name": "Kuwait International Airport", "citys": "Kuwait citys"},
+    },
+
+    "KG":{
+    "FRU": {"name": "Manas International Airport", "citys": "Bishkek"},
+    "OSS": {"name": "Osh Airport", "citys": "Osh"},
+    "DYU": {"name": "Tamchy Airport", "citys": "Issyk-Kul"},
+    },
+
+    "LV":{
+    "RIX": {"name": "Riga International Airport", "citys": "Riga"},
+    "LPV": {"name": "Liepāja International Airport", "citys": "Liepāja"},
+    "VNT": {"name": "Ventspils International Airport", "citys": "Ventspils"},
+    },
+
+    "LB":{
+    "BEY": {"name": "Beirut–Rafic Hariri International Airport", "citys": "Beirut"},
+    },
+
+    "LR":{
+    "ROB": {"name": "Roberts International Airport", "citys": "Monrovia"},
+    },
+
+    "LY":{
+    "MJI": {"name": "Mitiga International Airport", "citys": "Tripoli"},
+    "BEN": {"name": "Benina International Airport", "citys": "Benghazi"},
+    "MRA": {"name": "Misrata International Airport", "citys": "Misrata"},
+    "LAQ": {"name": "Al Abraq International Airport", "citys": "Bayda"},
+    "SEB": {"name": "Sabha Airport", "citys": "Sabha"},
+    "TOB": {"name": "Tobruk Airport", "citys": "Tobruk"},
+    },
+
+    "LT":{
+    "VNO": {"name": "Vilnius Airport", "citys": "Vilnius"},
+    "KUN": {"name": "Kaunas International Airport", "citys": "Kaunas"},
+    "PLQ": {"name": "Palanga International Airport", "citys": "Palanga"},
+    "SQQ": {"name": "Šiauliai International Airport", "citys": "Šiauliai"},
+    },
+
+    "LU":{
+    "LUX": {"name": "Luxembourg Findel Airport", "citys": "Luxembourg citys"},
+    },
+
+    "MO":{
+    "MFM": {"name": "Macau International Airport", "citys": "Macau"},
+    },
+
+    "MG":{
+    "TNR": {"name": "Ivato International Airport", "citys": "Antananarivo"},
+    "NOS": {"name": "Fascene Airport", "citys": "Nosy Be"},
+    "DIE": {"name": "Arrachart Airport", "citys": "Antsiranana"},
+    "MJN": {"name": "Amborovy Airport", "citys": "Mahajanga"},
+    "TMM": {"name": "Toamasina Airport", "citys": "Toamasina"},
+    "FTU": {"name": "Tôlanaro Airport", "citys": "Tôlanaro"},
+    },
+
+    "MW":{
+    "LLW": {"name": "Kamuzu International Airport", "citys": "Lilongwe"},
+    "BLZ": {"name": "Chileka International Airport", "citys": "Blantyre"},
+    },
+
+    "MV":{
+    "MLE": {"name": "Velana International Airport", "citys": "Malé"},
+    "GAN": {"name": "Gan International Airport", "citys": "Gan"},
+    "HAQ": {"name": "Hanimaadhoo International Airport", "citys": "Hanimaadhoo"},
+    "NMF": {"name": "Maafaru International Airport", "citys": "Maafaru"},
+    },
+
+    "ML":{
+    "BKO": {"name": "Modibo Keïta International Airport", "citys": "Bamako"},
+    "GAQ": {"name": "Gao International Airport", "citys": "Gao"},
+    
+    },
+
+    "MX":{
+    "MEX": {"name": "Mexico citys International Airport", "citys": "Mexico citys"},
+    "CUN": {"name": "Cancun International Airport", "citys": "Cancun"},
+    "GDL": {"name": "Guadalajara International Airport", "citys": "Guadalajara"},
+    "MTY": {"name": "Monterrey International Airport", "citys": "Monterrey"},
+    "SJD": {"name": "Los Cabos International Airport", "citys": "Los Cabos"},
+    "PVR": {"name": "Licenciado Gustavo Díaz Ordaz International Airport", "citys": "Puerto Vallarta"},
+    "TIJ": {"name": "Tijuana International Airport", "citys": "Tijuana"},
+    "MID": {"name": "Manuel Crescencio Rejón International Airport", "citys": "Mérida"},
+    "ACA": {"name": "General Juan N. Álvarez International Airport", "citys": "Acapulco"},
+    "HUX": {"name": "Bahías de Huatulco International Airport", "citys": "Huatulco"},
+    "CZM": {"name": "Cozumel International Airport", "citys": "Cozumel"},
+    "BJX":{"name":"Del Bajío International Airport","citys":"Mexico"},
+    },
+
+    "MD":{
+    "RMO": {"name": "Chișinău International Airport", "citys": "Chișinău"},
+    },
+
+    "MC":{
+    "MCM": {"name": "Monaco Heliport", "citys": "Monaco"},
+    },
+
+    "MN":{
+    "UBN": {"name": "Chinggis Khaan International Airport", "citys": "Ulaanbaatar"},
+    "ULN": {"name": "Buyant-Ukhaa International Airport", "citys": "Ulaanbaatar"},
+    },
+
+    "NA":{
+    "WDH": {"name": "Hosea Kutako International Airport", "citys": "Windhoek"},
+    "WVB": {"name": "Walvis Bay International Airport", "citys": "Walvis Bay"},
+    },
+
+    "NE":{
+    "NIM": {"name": "Diori Hamani International Airport", "citys": "Niamey"},
+    "AJY": {"name": "Mano Dayak International Airport", "citys": "Agadez"},
+    },
+
+    "NG":{
+    "LOS": {"name": "Murtala Muhammed International Airport", "citys": "Lagos"},
+    "ABV": {"name": "Nnamdi Azikiwe International Airport", "citys": "Abuja"},
+    "KAN": {"name": "Mallam Aminu Kano International Airport", "citys": "Kano"},
+    "PHC": {"name": "Port Harcourt International Airport", "citys": "Port Harcourt"},
+    "ENU": {"name": "Akanu Ibiam International Airport", "citys": "Enugu"},
+    "CBQ": {"name": "Margaret Ekpo International Airport", "citys": "Calabar"},
+    "QUO": {"name": "Akwa Ibom International Airport", "citys": "Uyo"},
+    },
+
+    "KP":{
+    "FNJ": {"name": "Pyongyang Sunan International Airport", "citys": "Pyongyang"},
+    "WOS": {"name": "Wonsan Kalma International Airport", "citys": "Wonsan"},
+    },
+
+    "NO":{
+    "OSL": {"name": "Oslo Airport", "citys": "Oslo"},
+    "BGO": {"name": "Bergen Airport", "citys": "Bergen"},
+    "SVG": {"name": "Stavanger Airport", "citys": "Stavanger"},
+    "TRD": {"name": "Trondheim Airport", "citys": "Trondheim"},
+    "TOS": {"name": "Tromsø Airport", "citys": "Tromsø"},
+    },
+
+    "OM":{
+    "MCT": {"name": "Muscat International Airport", "citys": "Muscat"},
+    "DQM": {"name": "Duqm International Airport", "citys": "Duqm"},
+    },
+
+    "PA":{
+    "PTY": {"name": "Tocumen International Airport", "citys": "Panama citys"},
+    "PAC": {"name": "Albrook Marcos A. Gelabert International Airport", "citys": "Panama citys"},
+    "BLB": {"name": "Panama Pacifico International Airport", "citys": "Panama citys"},
+    "DAV": {"name": "Enrique Malek International Airport", "citys": "David"},
+    "CHX": {"name": "Capitán Manuel Niño International Airport", "citys": "Changuinola"},
+    },
+
+    "PY":{
+    "ASU": {"name": "Silvio Pettirossi International Airport", "citys": "Asunción"},
+    "AGT": {"name": "Guaraní International Airport", "citys": "Ciudad del Este"},
+    "ESG": {"name": "Dr. Luis María Argaña International Airport", "citys": "Encarnación"},
+    },
+
+    "PE":{
+    "LIM": {"name": "Jorge Chávez International Airport", "citys": "Lima"},
+    "CUZ": {"name": "Alejandro Velasco Astete International Airport", "citys": "Cusco"},
+    "AQP": {"name": "Rodríguez Ballón International Airport", "citys": "Arequipa"},
+    "IQT": {"name": "Coronel FAP Francisco Secada Vignetta International Airport", "citys": "Iquitos"},
+    "JUL": {"name": "Inca Manco Cápac International Airport", "citys": "Juliaca"},
+    "TRU": {"name": "Capitán FAP Carlos Martínez de Pinillos International Airport", "citys": "Trujillo"},
+    "CIX": {"name": "Capitán FAP José A. Quiñones Gonzáles International Airport", "citys": "Chiclayo"},
+    "PIU": {"name": "Capitán FAP Guillermo Concha Ibérico International Airport", "citys": "Piura"},
+    "TCQ": {"name": "Coronel FAP Carlos Ciriani Santa Rosa International Airport", "citys": "Tacna"},
+    "PCL": {"name": "Capitán FAP David Abenzur Rengifo International Airport", "citys": "Pucallpa"},
+    "PEM": {"name": "Padre Aldamiz International Airport", "citys": "Puerto Maldonado"},
+    },
+
+    "PH":{
+    "MNL": {"name": "Ninoy Aquino International Airport", "citys": "Manila"},
+    "CEB": {"name": "Mactan–Cebu International Airport", "citys": "Cebu"},
+    "CRK": {"name": "Clark International Airport", "citys": "Clark"},
+    "DVO": {"name": "Francisco Bangoy International Airport", "citys": "Davao"},
+    "KLO": {"name": "Kalibo International Airport", "citys": "Kalibo"},
+    "ILO": {"name": "Iloilo International Airport", "citys": "Iloilo"},
+    "PPS": {"name": "Puerto Princesa International Airport", "citys": "Puerto Princesa"},
+    "TAG": {"name": "Bohol–Panglao International Airport", "citys": "Panglao"},
+    },
+
+    "PL":{
+    "WAW": {"name": "Warsaw Chopin Airport", "citys": "Warsaw"},
+    "KRK": {"name": "John Paul II International Airport Kraków–Balice", "citys": "Kraków"},
+    "GDN": {"name": "Gdańsk Lech Wałęsa Airport", "citys": "Gdańsk"},
+    "WRO": {"name": "Copernicus Airport Wrocław", "citys": "Wrocław"},
+    "POZ": {"name": "Poznań–Ławica Henryk Wieniawski Airport", "citys": "Poznań"},
+    "KTW": {"name": "Katowice Airport", "citys": "Katowice"},
+    "LCJ": {"name": "Łódź Władysław Reymont Airport", "citys": "Łódź"},
+    "SZZ": {"name": "Solidarity Szczecin–Goleniów Airport", "citys": "Szczecin"},
+    "RZE": {"name": "Rzeszów–Jasionka Airport", "citys": "Rzeszów"},
+    "LUZ": {"name": "Lublin Airport", "citys": "Lublin"},
+    },
+
+    "PT":{
+    "LIS": {"name": "Humberto Delgado Airport (Lisbon Portela Airport)", "citys": "Lisbon"},
+    "OPO": {"name": "Francisco Sá Carneiro Airport", "citys": "Porto"},
+    "FAO": {"name": "Faro Airport", "citys": "Faro"},
+    "FNC": {"name": "Madeira Airport", "citys": "Funchal"},
+    "PDL": {"name": "João Paulo II Airport", "citys": "Ponta Delgada"},
+    "TER": {"name": "Lajes Field", "citys": "Terceira Island"},
+    "PXO": {"name": "Porto Santo Airport", "citys": "Porto Santo Island"},
+    },
+
+    "QA":{
+    "DOH": {"name": "Hamad International Airport", "citys": "Doha"},
+    },
+
+    "RU":{
+    "SVO": {"name": "Sheremetyevo International Airport", "citys": "Moscow"},
+    "DME": {"name": "Domodedovo International Airport", "citys": "Moscow"},
+    "VKO": {"name": "Vnukovo International Airport", "citys": "Moscow"},
+    "ZIA": {"name": "Zhukovsky International Airport", "citys": "Moscow"},
+    "LED": {"name": "Pulkovo Airport", "citys": "Saint Petersburg"},
+    "AER": {"name": "Sochi International Airport", "citys": "Sochi"},
+    "OVB": {"name": "Tolmachevo Airport", "citys": "Novosibirsk"},
+    "SVX": {"name": "Koltsovo International Airport", "citys": "Yekaterinburg"},
+    "KZN": {"name": "Kazan International Airport", "citys": "Kazan"},
+    "UFA": {"name": "Ufa International Airport", "citys": "Ufa"},
+    "VVO": {"name": "Vladivostok International Airport", "citys": "Vladivostok"},
+    "KRR": {"name": "Krasnodar International Airport", "citys": "Krasnodar"},
+    "KUF": {"name": "Kurumoch International Airport", "citys": "Samara"},
+    "IKT": {"name": "Irkutsk International Airport", "citys": "Irkutsk"},
+    "KJA": {"name": "Krasnoyarsk International Airport", "citys": "Krasnoyarsk"},
+    "MRV": {"name": "Mineralnye Vody Airport", "citys": "Mineralnye Vody"},
+    "ROV": {"name": "Platov International Airport", "citys": "Rostov-on-Don"},
+    "KGD": {"name": "Khrabrovo Airport", "citys": "Kaliningrad"},
+    "HTA": {"name": "Chita-Kadala International Airport", "citys": "Chita"},
+    },
+
+    "WS":{
+    "APW": {"name": "Faleolo International Airport", "citys": "Apia"},
+    },
+
+    "RS":{
+    "BEG": {"name": "Nikola Tesla Airport", "citys": "Belgrade"},
+    },
+
+    "SO":{
+    "MGQ": {"name": "Aden Adde International Airport", "citys": "Mogadishu"},
+    "HGA": {"name": "Hargeisa Egal International Airport", "citys": "Hargeisa"},
+    },
+
+    "KR":{
+    "ICN": {"name": "Incheon International Airport", "citys": "Seoul"},
+    "GMP": {"name": "Gimpo International Airport", "citys": "Seoul"},
+    "PUS": {"name": "Gimhae International Airport", "citys": "Busan"},
+    "CJU": {"name": "Jeju International Airport", "citys": "Jeju citys"},
+    "CJJ": {"name": "Cheongju International Airport", "citys": "Cheongju"},
+    "TAE": {"name": "Daegu International Airport", "citys": "Daegu"},
+    "MWX": {"name": "Muan International Airport", "citys": "Muan"},
+    "YNY": {"name": "Yangyang International Airport", "citys": "Yangyang"},
+    },
+
+    "ES":{
+    "MAD": {"name": "Adolfo Suárez Madrid–Barajas Airport", "citys": "Madrid"},
+    "BCN": {"name": "Barcelona–El Prat Airport", "citys": "Barcelona"},
+    "PMI": {"name": "Palma de Mallorca Airport", "citys": "Palma de Mallorca"},
+    "AGP": {"name": "Málaga Airport", "citys": "Málaga"},
+    "ALC": {"name": "Alicante–Elche Miguel Hernández Airport", "citys": "Alicante"},
+    "TFS": {"name": "Tenerife South Airport", "citys": "Tenerife"},
+    "LPA": {"name": "Gran Canaria Airport", "citys": "Las Palmas de Gran Canaria"},
+    "IBZ": {"name": "Ibiza Airport", "citys": "Ibiza"},
+    "VLC": {"name": "Valencia Airport", "citys": "Valencia"},
+    "SVQ": {"name": "Seville Airport", "citys": "Seville"},
+    "BIO": {"name": "Bilbao Airport", "citys": "Bilbao"},
+    "SPC": {"name": "La Palma Airport", "citys": "La Palma"},
+    "TFN": {"name": "Tenerife North Airport", "citys": "Tenerife"},
+    "ACE": {"name": "Lanzarote Airport", "citys": "Lanzarote"},
+    },
+
+    "SD":{
+    "PZU": {"name": "Port Sudan New International Airport", "citys": "Port Sudan"},
+    "KRT": {"name": "Khartoum International Airport", "citys": "Khartoum"},
+    },
+
+    "SY":{
+    "DAM": {"name": "Damascus International Airport", "citys": "Damascus"},
+    "ALP": {"name": "Aleppo International Airport", "citys": "Aleppo"},
+    "LTK": {"name": "Bassel Al-Assad International Airport", "citys": "Latakia"},
+    },
+
+    "TW":{
+    "TPE": {"name": "Taiwan Taoyuan International Airport", "citys": "Taipei"},
+    "TSA": {"name": "Taipei Songshan Airport", "citys": "Taipei"},
+    "KHH": {"name": "Kaohsiung International Airport", "citys": "Kaohsiung"},
+    "RMQ": {"name": "Taichung International Airport", "citys": "Taichung"},
+    },
+
+    "SE":{
+    "ARN": {"name": "Stockholm Arlanda Airport", "citys": "Stockholm"},
+    "GOT": {"name": "Gothenburg Landvetter Airport", "citys": "Gothenburg"},
+    },
+
+    "TJ":{
+    "DYU": {"name": "Dushanbe International Airport", "citys": "Dushanbe"},
+    "LBD": {"name": "Khujand Airport", "citys": "Khujand"},
+    },
+
+    "TG":{
+    "LFW": {"name": "Lomé–Tokoin International Airport", "citys": "Lomé"},
+    "VGM": {"name": "Niamtougou International Airport", "citys": "Niamtougou"},
+    },
+
+    "TO":{
+    "TBU": {"name": "Fuaʻamotu International Airport", "citys": "Nukuʻalofa"},
+    "VAV": {"name": "Vavaʻu International Airport", "citys": "Neiafu"},
+    },
+
+    "TN":{
+    "TUN": {"name": "Tunis–Carthage International Airport", "citys": "Tunis"},
+    "DJE": {"name": "Djerba–Zarzis International Airport", "citys": "Djerba"},
+    "MIR": {"name": "Monastir Habib Bourguiba International Airport", "citys": "Monastir"},
+    "SFA": {"name": "Sfax–Thyna International Airport", "citys": "Sfax"},
+    "GAF": {"name": "Gafsa–Ksar International Airport", "citys": "Gafsa"},
+    "TOE": {"name": "Tozeur–Nefta International Airport", "citys": "Tozeur"},
+    "QEN": {"name": "Enfidha–Hammamet International Airport", "citys": "Enfidha"},
+    },
+
+    "TR":{
+    "IST": {"name": "Istanbul Airport", "citys": "Istanbul"},
+    "SAW": {"name": "Sabiha Gökçen International Airport", "citys": "Istanbul"},
+    "AYT": {"name": "Antalya Airport", "citys": "Antalya"},
+    "ESB": {"name": "Ankara Esenboğa Airport", "citys": "Ankara"},
+    "ADB": {"name": "Adnan Menderes Airport", "citys": "Izmir"},
+    "DLM": {"name": "Dalaman Airport", "citys": "Muğla"},
+    "GZT": {"name": "Gaziantep Oğuzeli International Airport", "citys": "Gaziantep"},
+    "TZX": {"name": "Trabzon Airport", "citys": "Trabzon"},
+    "BJV": {"name": "Milas–Bodrum Airport", "citys": "Bodrum"},
+    "ADA": {"name": "Adana Şakirpaşa Airport", "citys": "Adana"},
+    "ASR": {"name": "Kayseri Erkilet Airport", "citys": "Kayseri"},
+    "NAV": {"name": "Nevşehir Kapadokya Airport", "citys": "Nevşehir"},
+    "ASL": {"name": "Ağrı Ahmed-i Hani Airport", "citys": "Ağrı"},
+    "IGD": {"name": "Iğdır Airport", "citys": "Iğdır"},
+    },
+
+    "TM":{
+    "ASB": {"name": "Ashgabat International Airport", "citys": "Ashgabat"},
+    "CRZ": {"name": "Turkmenabat International Airport", "citys": "Turkmenabat"},
+    "KRW": {"name": "Turkmenbashi International Airport", "citys": "Turkmenbashi"},
+    "MYP": {"name": "Mary International Airport", "citys": "Mary"},
+    },
+
+    "UG":{
+    "EBB": {"name": "Entebbe International Airport", "citys": "Entebbe"},
+    },
+
+    "UA":{
+    "KBP": {"name": "Kyiv Boryspil International Airport", "citys": "Kyiv"},
+    "IEV": {"name": "Kyiv Zhuliany International Airport (Sikorsky)", "citys": "Kyiv"},
+    "LWO": {"name": "Lviv Danylo Halytskyi International Airport", "citys": "Lviv"},
+    "ODS": {"name": "Odesa International Airport", "citys": "Odesa"},
+    "HRK": {"name": "Kharkiv International Airport", "citys": "Kharkiv"},
+    "DNK": {"name": "Dnipro International Airport", "citys": "Dnipro"},
+    "OZH": {"name": "Zaporizhzhia International Airport", "citys": "Zaporizhzhia"},
+    "IFO": {"name": "Ivano-Frankivsk International Airport", "citys": "Ivano-Frankivsk"},
+    "CWC": {"name": "Chernivtsi International Airport", "citys": "Chernivtsi"},
+    "KHE": {"name": "Kherson International Airport", "citys": "Kherson"},
+    "DOK": {"name": "Donetsk International Airport", "citys": "Donetsk"},
+    "SIP": {"name": "Simferopol International Airport", "citys": "Simferopol"},
+    },
+
+    "UY":{
+    "MVD": {"name": "Carrasco International Airport", "citys": "Montevideo"},
+    "PDP": {"name": "Capitán de Corbeta Carlos A. Curbelo International Airport", "citys": "Punta del Este"},
+    "RVY": {"name": "Rivera International Airport", "citys": "Rivera"},
+    },
+
+    "UZ":{
+    "TAS": {"name": "Tashkent International Airport", "citys": "Tashkent"},
+    "SKD": {"name": "Samarkand International Airport", "citys": "Samarkand"},
+    "BHK": {"name": "Bukhara International Airport", "citys": "Bukhara"},
+    "UGC": {"name": "Urgench International Airport", "citys": "Urgench"},
+    "FEG": {"name": "Fergana International Airport", "citys": "Fergana"},
+    "NVI": {"name": "Navoi International Airport", "citys": "Navoi"},
+    },
+
+    "VE":{
+    "CCS": {"name": "Simón Bolívar International Airport", "citys": "Caracas"},
+    "MAR": {"name": "La Chinita International Airport", "citys": "Maracaibo"},
+    "VLN": {"name": "Arturo Michelena International Airport", "citys": "Valencia"},
+    "PMV": {"name": "Santiago Mariño Caribbean International Airport", "citys": "Porlamar"},
+    "BLA": {"name": "General José Antonio Anzoátegui International Airport", "citys": "Barcelona"},
+    "PZO": {"name": "Manuel Carlos Piar Guayana International Airport", "citys": "Puerto Ordaz"},
+    "BRM": {"name": "Barquisimeto International Airport", "citys": "Barquisimeto"},
+    "SVZ": {"name": "José Leonardo Chirino Airport", "citys": "Coro"},
+    "MUN": {"name": "Maturín International Airport", "citys": "Maturín"},
+    "CUM": {"name": "Antonio José de Sucre Airport", "citys": "Cumaná"},
+    },
+
+    "YE":{
+    "SAH": {"name": "Sana'a International Airport", "citys": "Sana'a"},
+    "ADE": {"name": "Aden International Airport", "citys": "Aden"},
+    "RIY": {"name": "Riyan International Airport", "citys": "Mukalla"},
+    "GXF": {"name": "Seiyun International Airport", "citys": "Seiyun"},
+    "AAY": {"name": "Al Ghaydah International Airport", "citys": "Al Ghaydah"},
+    "HOD": {"name": "Hodeidah International Airport", "citys": "Hodeidah"},
+    "SCT": {"name": "Socotra Airport", "citys": "Socotra Islands"},
+    "TAI": {"name": "Ta'izz International Airport", "citys": "Ta'izz"},
+    },
+
+    "ZM":{
+    "LUN": {"name": "Kenneth Kaunda International Airport", "citys": "Lusaka"},
+    "NLA": {"name": "Simon Mwansa Kapwepwe International Airport", "citys": "Ndola"},
+    "LVI": {"name": "Harry Mwanga Nkumbula International Airport", "citys": "Livingstone"},
+    },
+
+    "ZW":{
+    "HRE": {"name": "Robert Gabriel Mugabe International Airport", "citys": "Harare"},
+    "VFA": {"name": "Victoria Falls International Airport", "citys": "Victoria Falls"},
+    "BUQ": {"name": "Joshua Mqabuko Nkomo International Airport", "citys": "Bulawayo"},
+    },
+}
+
+
+AIRLINES = {
+    "BG": "Biman Bangladesh Airlines",
+    "BS": "US-Bangla Airlines",
+    "VQ": "Novoair",
+    "RA": "Regent Airways",
+    "S8": "SkyAir",
+    "8E": "Easy Fly Express",
+    "2A": "Air Astra",
+    "UQ": "Fly Dhaka Airlines",
+    "HP": "Horizon Plus",
+    "DA": "DhakaAir",
+    "MA": "Mid Asia Airlines",
+    "CA": "Sky Capital Airlines",
+    "AA": "Air Bangladesh",
+    "AB": "Air Bengal",
+    "SA": "South Asian Airlines",
+    "TA": "TAC Airlines",
+    "BA": "Bay Aviation",
+    "UA": "United Airways",
+
+    "AI": "Air India",                   
+    "IX": "Air India Express",          
+    "6E": "IndiGo",                    
+    "QP": "Akasa Air",                  
+    "9I": "Alliance Air",               
+    "SG": "SpiceJet",                   
+    "I5": "Go First",                   
+    "UK": "Vistara",                    
+    "G8": "AIX Connect",                
+    "QR": "Quikjet Cargo",              
+    "QO": "Star Air (India)",     
+    "ZD": "Zooom Air",
+    "EK": "Emirates",         
+    "FZ": "flydubai",         
+    "A6": "Aerovista",
+    
+    "RA": "Nepal Airlines (flag carrier)",
+    "U4": "Buddha Air",
+    "YT": "Yeti Airlines",
+    "RMK": "Simrik Airlines",
+    "TB": "Tara Air",
+    "SAU": "Saurya Airlines",
+    "GUA": "Guna Airlines",
+    "N9": "Shree Airlines",
+    "RA": "Nepal Airlines Corporation",
+
+    "KB": "Druk Air (Royal Bhutan Airlines)", 
+    "B3": "Bhutan Airlines (Tashi Air Pvt. Ltd.)",
+
+    "PK": "Pakistan International Airlines (PIA)",
+    "PA": "Airblue",
+    "ER": "SereneAir",
+    "PF": "AirSial",
+    "9P": "Fly Jinnah",
+
+    "MH": "Malaysia Airlines",
+    "AK": "AirAsia",
+    "XT": "AirAsia X",
+    "OD": "Malindo Air",
+    "IN": "Firefly",
+    "MZ": "MASwings",
+
+    "GA": "Garuda Indonesia",
+    "ID": "Batik Air",
+    "JT": "Lion Air",
+    "IW": "Batam Air",
+    "QZ": "Indonesia AirAsia",
+    "SJ": "Sriwijaya Air",
+    "RI": "Trigana Air Service",
+    "DN": "Citilink Indonesia",
+    "QG": "TransNusa Air Services",
+    "IL": "Silk Air Indonesia",
+    "AA": "Express Air Indonesia",
+    "YI": "Susi Air",
+
+    "UB": "Myanmar National Airlines",
+    "8M": "Mandalay Air",
+    "Y5": "Air KBZ",
+    "8Q": "Air Thanlwin",
+    "MM": "Myanmar Airways International",
+    "MG": "Myanma Airways",
+
+    "UL": "SriLankan Airlines",
+    "KQ": "FlyCeylon",
+    "MJ": "Mihin Lanka (ceased operations, historical)",
+
+    "BA": "British Airways",
+    "VS": "Virgin Atlantic",
+    "LS": "Jet2.com",
+    "U2": "easyJet",
+    "RK": "Ryanair UK",
+    "W9": "Wizz Air UK",
+    "BY": "TUI Airways",
+    "EC": "easyJet Europe",
+    "LM": "Loganair",
+    "BE": "Flybe",
+
+    "AA": "American Airlines",
+    "DL": "Delta Air Lines",
+    "UA": "United Airlines",
+    "WN": "Southwest Airlines",
+    "AS": "Alaska Airlines",
+    "B6": "JetBlue Airways",
+    "NK": "Spirit Airlines",
+    "F9": "Frontier Airlines",
+    "SY": "Sun Country Airlines",
+    "G4": "Allegiant Air",
+    "HA": "Hawaiian Airlines",
+    "VX": "Virgin America (ceased operations)",
+    "EV": "ExpressJet",
+    "MQ": "Envoy Air",
+    "OO": "SkyWest Airlines",
+    "YV": "Mesa Airlines",
+    "QX": "Horizon Air",
+    "YX": "Republic Airways",
+    "PT": "Piedmont Airlines",
+    "OH": "PSA Airlines",
+
+    "AZ": "ITA Airways",
+    "IG": "Air Italy",
+    "VE": "Volareweb.com",
+    "7M": "Aeroitalia",
+    "D4": "Alidaunia",
+    "AP": "Air One",
+
+    "NZ": "Air New Zealand",
+    "JQ": "Jetstar Airways",
+    "FN": "Air Nelson (ceased operations)",
+    "3C": "Air Chathams",
+    "S8": "Soundair",
+    "SI": "Sunair Aviation",
+
+    "AY": "Finnair",
+    "N7": "Flybe Nordic",
+    "9W": "Jet Air",
+    "OF": "Fly-Fil Air",
+
+    "LX": "Swiss International Air Lines",
+    "2L": "Helvetic Airways",
+    "WK": "Edelweiss Air",
+    "GM": "Germania Flug",
+    "SR": "Swissair",
+
+    "RO": "TAROM",
+    "W4": "Wizz Air",
+    "0B": "Blue Air",
+    "V2": "Valair",
+
+    "SA": "South African Airways",
+    "MN": "Kulula.com",
+    "FA": "Safair",
+    "4Z": "South African Express",
+    "8Z": "CemAir",
+    "CE": "CemAir Cargo",
+    "LC": "Comair",
+
+    "SV": "Saudia",
+    "XY": "Flynas",
+    "6S": "SaudiGulf Airlines",
+    "4O": "Flyadeal",
+    "NAS": "National Air Services",
+
+    "SQ": "Singapore Airlines",
+    "TR": "Scoot",
+    "MI": "SilkAir",
+    "3K": "Jetstar Asia Airways",
+    "TR": "Tigerair",
+
+    "TG": "Thai Airways International",
+    "WE": "Thai Smile",
+    "SL": "Thai Lion Air",
+    "FD": "Thai AirAsia",
+    "DD": "Nok Air",
+    "VZ": "Thai Vietjet Air",
+
+    "VN": "Vietnam Airlines",
+    "VJ": "VietJet Air",
+    "QH": "Bamboo Airways",
+    "BL": "Jetstar Pacific Airlines",
+    "VU": "Vietravel Airlines",
+    "BL": "Pacific Airlines",
+
+    "MS": "EgyptAir",
+    "NP": "Nile Air",
+    "SM": "Air Cairo",
+    "UJ": "AlMasria Universal Airlines",
+
+    "KM": "Air Malta",
+    "ML": "Malta Air",
+    "LM": "Loganair",
+    "AS": "Air Selassie",
+
+    "KL": "KLM Royal Dutch Airlines",
+    "HV": "Transavia",
+    "CD": "Corendon Dutch Airlines",
+    "WA": "KLM cityshopper",
+    "OR": "Martinair",
+    "WX": "cityJet",
+    "G2": "cityJet",
+
+    "QF": "Qantas",
+    "VA": "Virgin Australia",
+    "JQ": "Jetstar Airways",
+    "TT": "Tigerair Australia (ceased operations)",
+    "ZL": "Rex Regional Express",
+    "QQ": "Alliance Airlines",
+    "TL": "Air North",
+
+    "OS": "Austrian Airlines",
+    "OE": "Lauda",
+    "VW": "Aeromar",
+    "HF": "Fly Niki",
+    "A9": "Air Alps",
+    "VY":"Vienna Airways",
+
+    "FG": "Ariana Afghan Airlines",
+    "AR": "Aerolíneas Argentinas",
+    "4Q": "Safi Airways",
+    "K4": "Kam Air",
+    "9P": "Pamir Airways",
+
+    "GF": "Gulf Air",
+    "BN": "Bahrain Air",
+    "G4": "Gulf Air Express",
+    "2G": "2G Aero",
+    "7M": "Mahan Air",
+
+    "RM": "Armenian Airlines",
+    "6A": "Armenia Airways",
+    "3F": "FlyOne Armenia",
+    "G6": "Fly Arna",
+    "RM": "Air Dilijans",
+    "5G": "Shirak Avia",
+    "R3": "Air Armenia",
+
+    "AR": "Aerolíneas Argentinas",
+    "4M": "Aerolíneas Argentinas Cargo",
+    "AU": "Austral Líneas Aéreas",
+    "FO": "Flybondi",
+    "JJ": "LATAM Brazil",
+
+    "B2": "Belavia Belarusian Airlines",
+    "BRU": "Belavia",
+
+    "SN": "Brussels Airlines",
+    "TB": "TUI fly Belgium",
+    "QY": "European Air Transport Leipzig",
+    "V3": "CIS Air",
+    "BGE": "Belgian Air Transport",
+
+    "BM": "Bermudiana Airlines",
+    "2T": "BermudAir",
+    "BA": "British Airways",
+    "AA": "American Airlines",
+    "DL": "Delta Air Lines",
+    "AC": "Air Canada",
+
+    "OB": "Boliviana de Aviación",
+    "8J": "Transporte Aéreo Boliviano",
+    "2B": "Aerosur",
+    "Z8": "Amaszonas",
+
+    "BP": "Air Botswana",
+    "XP": "Mack Air",
+    "P4": "Air Charter Botswana",
+
+    "Q3": "Anguilla Air Services",
+    "J3": "Northwest Regional Airlines",
+
+    "LA": "LATAM Airlines Brasil",
+    "G3": "Gol Linhas Aéreas Inteligentes",
+    "AD": "Azul Brazilian Airlines",
+    "2Z": "Voepass Linhas Aéreas",
+    "PU": "PLUNA",
+
+    "BI": "Royal Brunei Airlines",
+    "BK": "Beijing Capital Airlines",
+
+    "FB": "Bulgaria Air",
+    "H6": "Bulgarian Air Charter",
+    "QZ": "Quintessential Aviation",
+    "IG": "Air Italy",
+
+    "K6": "Cambodia Angkor Air",
+    "KR": "Lanmei Airlines",
+    "QD": "JC International Airlines",
+    "3Q": "Cambodia Airways",
+    "FT": "Cambodia Bayon Airlines",
+    "QC": "Camair-Co",
+    "UN":"Transaero Airlines",
+
+    "AC": "Air Canada",
+    "WS": "WestJet",
+    "TS": "Air Transat",
+    "PD": "Porter Airlines",
+    "WG": "Sunwing Airlines",
+    "7F": "Calm Air International",
+    "C3":"Trade Air",
+
+    # Chile
+    "LA": "LATAM Airlines",
+    "JA": "JetSmart",
+    "H2": "Sky Airline",
+
+    # China
+    "CA": "Air China",
+    "MU": "China Eastern Airlines",
+    "CZ": "China Southern Airlines",
+    "HU": "Hainan Airlines",
+    "MF": "Xiamen Airlines",
+    "3U": "Sichuan Airlines",
+    "FM": "Shanghai Airlines",
+    "SC": "Shandong Airlines",
+    "HO": "Juneyao Air",
+    "G5": "China Express Airlines",
+    "JD": "Capital Airlines",
+    "9C": "Spring Airlines",
+
+    # Colombia
+    "AV": "Avianca",
+    "P5": "Satena",
+    "EF": "EasyFly",
+    "LA": "LATAM Airlines Colombia",
+    "VH": "Viva Air Colombia",
+    
+
+    # Comoros
+    "GG": "Air Comores International",
+    
+    # Congo
+    "4H": "Air Congo",
+    "3P": "Air Kasaï",
+    "E7": "Equaflight",
+
+    # Costa Rica
+    "LR": "Avianca Costa Rica",
+    "TA": "TACA Costa Rica",
+    "5C": "Nature Air",
+    "L3": "SANSA",
+
+    # Croatia
+    "OU": "Croatia Airlines",
+    "CT": "Trade Air",
+
+    # Cuba
+    "CU": "Cubana de Aviación",
+    "7L": "Aero Caribbean",
+    
+    # Cyprus
+    "CY": "Cyprus Airways",
+    "LCC": "Cobalt Air",
+    "L4": "Cyprus Turkish Airlines",
+    
+    # Denmark
+    "SK": "Scandinavian Airlines (SAS)",
+    "D8": "Norwegian Air International",
+    "DK": "Thomas Cook Airlines Belgium",
+    "DX": "DAT Danish Air Transport",
+    "TF": "Malmö Aviation",
+
+    # Ecuador
+    "2K": "AeroGal",
+    "EQ": "TAME",
+
+    # Estonia
+    "ND": "Nordica",
+    "EE": "Estonian Air",
+    
+    # Ethiopia
+    "ET": "Ethiopian Airlines",
+    "EY": "Etihad Airways",
+
+    # Fiji
+    "FJ": "Fiji Airways",
+    "PC": "Air China Cargo",
+
+    # France
+    "AF": "Air France",
+    "TO": "Transavia France",
+    "A5": "Air France Hop",
+    "XK": "Air Corsica",
+    "SE": "XL Airways France",
+
+    # Georgia
+    "A9": "Georgian Airways",
+    "DW": "Georgian Airlines",
+
+    # Germany
+    "LH": "Lufthansa",
+    "4Y": "Discover Airlines",
+    "EW": "Eurowings",
+    "X3": "TUI fly Deutschland",
+    "DE": "Condor",
+    "ZQ": "Air Germany",
+
+    # Ghana
+    "GH": "Ghana Airways",
+    "K9": "Antrak Air",
+    "XN": "African Express Airways",
+    "X9": "Air Ghana",
+    "5H": "Fly540",
+    "7G": "Starbow Airlines",
+
+    # Greece
+    "A3": "Aegean Airlines",
+    "OA": "Olympic Air",
+    "GQ": "Sky Express",
+    "MA": "Minoan Air",
+
+    # Greenland
+    "GL": "Air Greenland",
+    "NY": "Air Iceland Connect",
+
+    # Guyana
+    "GY": "Guyana Airways",
+    "TGY": "Trans Guyana Airways",
+    "3X": "Fly All Ways",
+
+    # Honduras
+    "HR": "Isleña Airlines",
+    "C3": "Air Charter Honduras",
+    "WC": "CM Airlines",
+    "P4":"Aerolineas Sudamericanas",
+
+    # Hong Kong
+    "CX": "Cathay Pacific",
+    "UO": "Hong Kong Express Airways",
+    "KA": "Cathay Dragon",
+    "HX": "Hong Kong Airlines",
+    "CX": "Cathay Pacific Cargo",
+
+    # Iceland
+    "FI": "Icelandair",
+    "OG": "Play",
+    "CC": "Air Atlanta Icelandic",
+    "NI":"Aero VIP",
+
+    # Iran
+    "IR": "Iran Air",
+    "W5": "Mahan Air",
+    "B9": "Iran Airtour",
+    "EP": "Iran Aseman Airlines",
+
+    # Iraq
+    "IA": "Iraqi Airways",
+    "IF": "Iraqi Airways",
+
+    # Ireland
+    "EI": "Aer Lingus",
+    "FR": "Ryanair",
+    "RE": "Stobart Air",
+
+    # Israel
+    "LY": "El Al Israel Airlines",
+    "IZ": "Arkia Israeli Airlines",
+    "6H": "Israir Airlines",
+
+    # Jamaica
+    "BW": "Caribbean Airlines",
+    "JM": "Air Jamaica (ceased operations)",
+    "B6": "JetBlue Airways",
+
+    # Japan
+    "JL": "Japan Airlines",
+    "NH": "All Nippon Airways (ANA)",
+    "BC": "Skymark Airlines",
+    "GK": "Jetstar Japan",
+    "MM": "Peach Aviation",
+    "7G": "StarFlyer",
+
+    # Jordan
+    "RJ": "Royal Jordanian",
+    "R5": "Royal Wings",
+    "J9": "Jordan Aviation",
+
+    # Kazakhstan
+    "KC": "Air Astana",
+    "DV": "FlyArystan",
+
+    # Kenya
+    "KQ": "Kenya Airways",
+    "5Y": "Astral Aviation",
+    "JM": "Jambojet",
+    "QH": "748 Air Services",
+    
+    # Kuwait
+    "KU": "Kuwait Airways",
+    "J9": "Jazeera Airways",
+    "KU": "Kuwait Airways Corporation",
+
+    # Kyrgyzstan
+    "KC": "Air Astana",
+    "Z9": "SCAT Airlines",
+    "FH": "Avia Traffic Company",
+    
+    # Latvia
+    "BT": "airBaltic",
+    "6Y": "SmartLynx Airlines",
+
+    # Lebanon
+    "ME": "Middle East Airlines",
+    "TL": "Trans Mediterranean Airways",
+    "8Y": "Air Lebanon",
+    
+    # Liberia
+    "LE": "Liberia World Airlines",
+    "S3": "SBA Airlines",
+    "8L": "Liberian Airways",
+    "5L":"Fly Salone",
+    
+    # Libya
+    "LN": "Libyan Airlines",
+    "7O": "Libyan Wings",
+    
+    # Lithuania
+    "UN": "Transaero",
+    "TE": "Trans European Airlines",
+    "L9": "Lithuanian Airlines",
+    
+    # Luxemburg
+    "LG": "Luxair",
+    "CV": "Cargolux",
+    
+    # Macao
+    "NX": "Air Macau",
+
+    # Madagascar
+    "MD": "Air Madagascar",
+    "G6": "FlyArna",
+    
+    # Malawi
+    "QM": "Air Malawi",
+    "3W": "Malawian Airlines",
+    "EP": "Iran Aseman Airlines",
+    "MLX":"Malawi Express",
+    "8Q":"Qeshm Air",
+
+    # Maldives
+    "Q2": "Maldivian",
+    "VP": "Flyme",
+    "M8": "Trans Maldivian Airways",
+    
+    # Mali
+    "L9":"Air Mali International",
+    "M6":"Amerijet International",
+
+    # Mexico
+    "AM": "Aeroméxico",
+    "Y4": "Volaris",
+    "VB": "Viva Aerobus",
+    "I7": "Interjet",
+
+    # Moldova
+    "9U": "Air Moldova",
+    "5F": "Fly One",
+    "5V":"TNT Airways",
+
+    # Monaco
+    "QM": "Monacair",
+
+    # Mongolia
+    "OM": "MIAT Mongolian Airlines",
+    "M0": "Aero Mongolia",
+
+    # Namibia
+    "SW": "Air Namibia",
+    "WV": "Westair Aviation",
+
+    # Niger
+    "AWN": "Air Niamey",
+    "6N": "Niger Airlines",
+
+    # Nigeria
+    "P4": "Air Peace",
+    "W3": "Arik Air",
+    "VK": "Air Nigeria",
+    "NGL": "Max Air",
+    "B3": "Allied Air",
+
+    # North Korea
+    "JS": "Air Koryo",
+
+    # Norway
+    "SK": "Scandinavian Airlines (SAS)",
+    "DY": "Norwegian Air Shuttle",
+    "WF": "Widerøe",
+    "VF": "FlyViking",
+
+    # Oman
+    "WY": "Oman Air",
+    "OV": "SalamAir",
+
+    # Panama
+    "CM": "Copa Airlines",
+    "7P": "Air Panama",
+    "PA": "Pan American World Airways",
+
+    # Paraguay
+    "ZP": "Paranair",
+    "PZ": "TAM Airlines Paraguay",
+
+    # Peru
+    "LP": "LATAM Perú",
+    "2I": "Aero Ica",
+    "T7": "LC Perú",
+    "2B": "Star Perú",
+    "MR":"Avianca Peru",
+
+    # Philippines
+    "PR": "Philippine Airlines",
+    "5J": "Cebu Pacific",
+    "2P": "PAL Express",
+    "Z2": "AirAsia Philippines",
+
+    # Poland
+    "LO": "LOT Polish Airlines",
+    "E4": "Enter Air",
+    "P7": "Small Planet Airlines",
+
+    # Portugal
+    "TP": "TAP Air Portugal",
+    "S4": "Azores Airlines",
+    "SP": "SATA Air Açores",
+    "MRV": "M.R.V. Avia",
+
+    # Qatar
+    "QR": "Qatar Airways",
+    "G9": "Air Arabia",
+
+    # Russia
+    "SU": "Aeroflot",
+    "S7": "S7 Airlines",
+    "U6": "Ural Airlines",
+    "UT": "UTair Aviation",
+    "FV": "Rossiya Airlines",
+    "N4": "Nordwind Airlines",
+    "NN": "VIM Airlines",
+    "DP": "Pobeda",
+
+    # Samoa
+    "OL": "Samoa Airways",
+    "TA": "Talofa Airways",
+
+    # Serbia
+    "JU": "Air Serbia",
+    "JAT": "Jat Airways",
+
+    # Somalia
+    "RF": "Aero K",
+    "D3": "Daallo Airlines",
+    "3J": "Jubba Airways",
+
+    # South Korea
+    "KE": "Korean Air",
+    "OZ": "Asiana Airlines",
+    "7C": "Jeju Air",
+    "TW": "T'way Air",
+    "LJ": "Jin Air",
+    "BX": "Air Busan",
+    "RS": "Air Seoul",
+
+    # Spain
+    "IB": "Iberia",
+    "VY": "Vueling",
+    "UX": "Air Europa",
+    "YW": "Air Nostrum",
+    "V7": "Volotea",
+
+    # Sudan
+    "SD": "Sudan Airways",
+    "3T": "Tarco Air",
+    "7S": "Badr Airlines",
+
+    # Syria
+    "RB": "Syrianair",
+    "6Q": "Cham Wings Airlines",
+    "6G":"Go2Sky",
+    "6Q":"Jet Airways",
+
+    # Taiwan
+    "CI": "China Airlines",
+    "BR": "EVA Air",
+    "JX": "Starlux Airlines",
+    "IT": "Tigerair Taiwan",
+    "AE": "Mandarin Airlines",
+
+    # Tajikistan
+    "7J": "Tajik Air",
+    "SZ": "Somon Air",
+
+    # Sweden
+    "SK": "Scandinavian Airlines (SAS)",
+    "TF": "Braathens Regional Airlines",
+    "DX": "DAT Danish Air Transport",
+    "GF": "Gulf Air",
+
+    # Togo
+    "5D": "Air Togo",
+    "ET": "Ethiopian Airlines",
+
+    # Tonga
+    "SB": "Avianca Brazil",
+    "IE":"Solomon Airlines",
+    "3B": "Bora Bora",
+    "TG": "Thai Airways International",
+
+    # Tunisia
+    "TU": "Tunisair",
+    "UG": "Tunisair Express",
+    "BJ": "Nouvelair",
+
+    # Turkey
+    "TK": "Turkish Airlines",
+    "PC": "Pegasus Airlines",
+    "XQ": "SunExpress",
+    "KK": "AtlasGlobal",
+
+    # Turkmenistan
+    "T5": "Turkmenistan Airlines",
+
+    # Uganda
+    "UG": "Uganda Airlines",
+    "UE": "Uganda Air Cargo",
+
+    # Ukraine
+    "PS": "Ukraine International Airlines",
+    "7W": "Windrose Airlines",
+    "YE": "Yanair",
+    "UR": "Dniproavia",
+
+    # Uruguay
+    "PU": "Pluna",
+    "UY": "Uair",
+    "5P": "Aeromas",
+
+    # Uzbekistan
+    "HY": "Uzbekistan Airways",
+
+    # Venezuela
+    "V0": "Venezolana",
+    "WW": "Venezolana de Aviación",
+    "YW": "Aserca Airlines",
+    "PO":"Polar Air Cargo",
+
+    # Yemen
+    "IY": "Yemenia",
+    "YD": "Felix Airways",
+
+    # Zambia
+    "Z9": "Proflight Zambia",
+    "ZN": "Zambia Airways",
+    
+    # Zimbabwe
+    "UM": "Air Zimbabwe",
+    "FN": "Fastjet Zimbabwe",
+    "AW": "Airlink",
+
+}
+
+
+
+
+COUNTRIES = {
+    "AF": "Afghanistan",
+    "AL": "Albania",
+    "DZ": "Algeria",
+    "AS": "American Samoa",
+    "AD": "Andorra",
+    "AO": "Angola",
+    "AI": "Anguilla",
+    "AQ": "Antarctica",
+    "AG": "Antigua and Barbuda",
+    "AR": "Argentina",
+    "AM": "Armenia",
+    "AW": "Aruba",
+    "AU": "Australia",
+    "AT": "Austria",
+    "AZ": "Azerbaijan",
+    "BS": "Bahamas",
+    "BH": "Bahrain",
+    "BD": "Bangladesh",
+    "BB": "Barbados",
+    "BY": "Belarus",
+    "BE": "Belgium",
+    "BZ": "Belize",
+    "BJ": "Benin",
+    "BM": "Bermuda",
+    "BT": "Bhutan",
+    "BO": "Bolivia",
+    "BA": "Bosnia and Herzegovina",
+    "BW": "Botswana",
+    "BR": "Brazil",
+    "BN": "Brunei Darussalam",
+    "BG": "Bulgaria",
+    "BF": "Burkina Faso",
+    "BI": "Burundi",
+    "KH": "Cambodia",
+    "CM": "Cameroon",
+    "CA": "Canada",
+    "CV": "Cape Verde",
+    "CF": "Central African Republic",
+    "TD": "Chad",
+    "CL": "Chile",
+    "CN": "China",
+    "CO": "Colombia",
+    "KM": "Comoros",
+    "CG": "Congo",
+    "CD": "Congo, Democratic Republic",
+    "CR": "Costa Rica",
+    "CI": "Côte d'Ivoire",
+    "HR": "Croatia",
+    "CU": "Cuba",
+    "CY": "Cyprus",
+    "CZ": "Czech Republic",
+    "DK": "Denmark",
+    "DJ": "Djibouti",
+    "DM": "Dominica",
+    "DO": "Dominican Republic",
+    "EC": "Ecuador",
+    "EG": "Egypt",
+    "SV": "El Salvador",
+    "GQ": "Equatorial Guinea",
+    "ER": "Eritrea",
+    "EE": "Estonia",
+    "ET": "Ethiopia",
+    "FK": "Falkland Islands",
+    "FO": "Faroe Islands",
+    "FJ": "Fiji",
+    "FI": "Finland",
+    "FR": "France",
+    "GF": "French Guiana",
+    "PF": "French Polynesia",
+    "GA": "Gabon",
+    "GM": "Gambia",
+    "GE": "Georgia",
+    "DE": "Germany",
+    "GH": "Ghana",
+    "GR": "Greece",
+    "GL": "Greenland",
+    "GD": "Grenada",
+    "GP": "Guadeloupe",
+    "GU": "Guam",
+    "GT": "Guatemala",
+    "GN": "Guinea",
+    "GW": "Guinea-Bissau",
+    "GY": "Guyana",
+    "HT": "Haiti",
+    "HN": "Honduras",
+    "HK": "Hong Kong",
+    "HU": "Hungary",
+    "IS": "Iceland",
+    "IN": "India",
+    "ID": "Indonesia",
+    "IR": "Iran",
+    "IQ": "Iraq",
+    "IE": "Ireland",
+    "IL": "Israel",
+    "IT": "Italy",
+    "JM": "Jamaica",
+    "JP": "Japan",
+    "JO": "Jordan",
+    "KZ": "Kazakhstan",
+    "KE": "Kenya",
+    "KI": "Kiribati",
+    "KW": "Kuwait",
+    "KG": "Kyrgyzstan",
+    "LA": "Lao People's Democratic Republic",
+    "LV": "Latvia",
+    "LB": "Lebanon",
+    "LS": "Lesotho",
+    "LR": "Liberia",
+    "LY": "Libya",
+    "LI": "Liechtenstein",
+    "LT": "Lithuania",
+    "LU": "Luxembourg",
+    "MO": "Macau",
+    "MK": "North Macedonia",
+    "MG": "Madagascar",
+    "MW": "Malawi",
+    "MY": "Malaysia",
+    "MV": "Maldives",
+    "ML": "Mali",
+    "MT": "Malta",
+    "MH": "Marshall Islands",
+    "MQ": "Martinique",
+    "MR": "Mauritania",
+    "MU": "Mauritius",
+    "MX": "Mexico",
+    "FM": "Micronesia",
+    "MD": "Moldova",
+    "MC": "Monaco",
+    "MN": "Mongolia",
+    "ME": "Montenegro",
+    "MS": "Montserrat",
+    "MA": "Morocco",
+    "MZ": "Mozambique",
+    "MM": "Myanmar",
+    "NA": "Namibia",
+    "NR": "Nauru",
+    "NP": "Nepal",
+    "NL": "Netherlands",
+    "NZ": "New Zealand",
+    "NI": "Nicaragua",
+    "NE": "Niger",
+    "NG": "Nigeria",
+    "KP": "North Korea",
+    "NO": "Norway",
+    "OM": "Oman",
+    "PK": "Pakistan",
+    "PW": "Palau",
+    "PA": "Panama",
+    "PG": "Papua New Guinea",
+    "PY": "Paraguay",
+    "PE": "Peru",
+    "PH": "Philippines",
+    "PL": "Poland",
+    "PT": "Portugal",
+    "QA": "Qatar",
+    "RO": "Romania",
+    "RU": "Russia",
+    "RW": "Rwanda",
+    "KN": "Saint Kitts and Nevis",
+    "LC": "Saint Lucia",
+    "VC": "Saint Vincent and the Grenadines",
+    "WS": "Samoa",
+    "SM": "San Marino",
+    "ST": "Sao Tome and Principe",
+    "SA": "Saudi Arabia",
+    "SN": "Senegal",
+    "RS": "Serbia",
+    "SC": "Seychelles",
+    "SL": "Sierra Leone",
+    "SG": "Singapore",
+    "SK": "Slovakia",
+    "SI": "Slovenia",
+    "SB": "Solomon Islands",
+    "SO": "Somalia",
+    "ZA": "South Africa",
+    "KR": "South Korea",
+    "ES": "Spain",
+    "LK": "Sri Lanka",
+    "SD": "Sudan",
+    "SR": "Suriname",
+    "SE": "Sweden",
+    "CH": "Switzerland",
+    "SY": "Syria",
+    "TW": "Taiwan",
+    "TJ": "Tajikistan",
+    "TZ": "Tanzania",
+    "TH": "Thailand",
+    "TL": "Timor-Leste",
+    "TG": "Togo",
+    "TO": "Tonga",
+    "TT": "Trinidad and Tobago",
+    "TN": "Tunisia",
+    "TR": "Turkey",
+    "TM": "Turkmenistan",
+    "UG": "Uganda",
+    "UA": "Ukraine",
+    "AE": "United Arab Emirates",
+    "GB": "United Kingdom",
+    "US": "United States",
+    "UY": "Uruguay",
+    "UZ": "Uzbekistan",
+    "VU": "Vanuatu",
+    "VA": "Vatican citys",
+    "VE": "Venezuela",
+    "VN": "Vietnam",
+    "YE": "Yemen",
+    "ZM": "Zambia",
+    "ZW": "Zimbabwe"
+}

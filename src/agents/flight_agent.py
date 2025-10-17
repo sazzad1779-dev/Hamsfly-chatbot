@@ -2,93 +2,35 @@ import os
 import requests
 import json
 from agno.agent import Agent
-from agno.tools import tool
-from agno.models.openai import OpenAIChat
+from agno.knowledge.knowledge import Knowledge
+from agno.vectordb.chroma import ChromaDb
+# from agno.models.openai import OpenAIChat
+from src.tools.base_tools import search_sabre_flights
+from agno.models.google import Gemini
 from dotenv import load_dotenv
+load_dotenv(override=True)
 
-load_dotenv()
+# Create Knowledge Instance with ChromaDB
+knowledge = Knowledge(
+    name="Basic SDK Knowledge Base",
+    description="Agno 2.0 Knowledge Implementation with ChromaDB",
+    vector_db=ChromaDb(
+        collection="vectors", path="tmp/chromadb", persistent_client=True
+    ),
+)
+knowledge.add_content_async(
+        name="Recipes",
+        path="src/utils/airports.json",
+        metadata={"doc_type": "recipe_book"},
+    )
 
-@tool()
-def search_sabre_flights(
-    pcc: str,
-    origin: str, 
-    destination: str, 
-    start_date: str, 
-    end_date: str
-) -> str:
-    """Search for round-trip flights using Sabre API
-    
-    Args:
-        pcc: Pseudo City Code for Sabre
-        origin: Origin airport code (e.g., 'MIA')
-        destination: Destination airport code (e.g., 'MCO')
-        start_date: Departure date (YYYY-MM-DD)
-        end_date: Return date (YYYY-MM-DD)
-    """
-    access_token = os.getenv("ACCESS_TOKEN")
-    url = "https://api.platform.sabre.com/v4.3.0/shop/flights?mode=live"
-    
-    headers = {
-        "Authorization": f"Bearer {access_token}",
-        "Content-Type": "application/json",
-        "Accept": "application/json"
-    }
-
-    body = {
-        "OTA_AirLowFareSearchRQ": {
-            "Version": "4.3.0",
-            "POS": {
-                "Source": [{
-                    "PseudoCityCode": pcc,
-                    "RequestorID": {
-                        "Type": "1",
-                        "ID": "1",
-                        "CompanyName": {"Code": "TN", "content": "TN"}
-                    }
-                }]
-            },
-            "OriginDestinationInformation": [
-                {
-                    "RPH": "1",
-                    "DepartureDateTime": f"{start_date}T11:00:00",
-                    "OriginLocation": {"LocationCode": origin},
-                    "DestinationLocation": {"LocationCode": destination}
-                },
-                {
-                    "RPH": "2", 
-                    "DepartureDateTime": f"{end_date}T11:00:00",
-                    "OriginLocation": {"LocationCode": destination},
-                    "DestinationLocation": {"LocationCode": origin}
-                }
-            ],
-            "TravelPreferences": {
-                "ValidInterlineTicket": True,
-                "FlightTypePref": {"MaxConnections": "0"}
-            },
-            "TravelerInfoSummary": {
-                "SeatsRequested": [1],
-                "AirTravelerAvail": [{
-                    "PassengerTypeQuantity": [{"Code": "ADT", "Quantity": 1}]
-                }]
-            },
-            "TPA_Extensions": {
-                "IntelliSellTransaction": {"RequestType": {"Name": "50ITINS"}}
-            }
-        }
-    }
-
-    response = requests.post(url, headers=headers, json=body)
-    
-    if response.status_code == 200:
-        return json.dumps(response.json(), indent=2)
-    else:
-        return f"❌ Error {response.status_code}: {response.text}"
 
 # Create your Sabre flight agent
 sabre_agent = Agent(
     name="Sabre Flight Search Agent",
-    model=OpenAIChat(id="gpt-4"),
+    model=Gemini(id="gemini-2.0-flash-exp"),
     tools=[search_sabre_flights],
+    knowledge=knowledge,
     instructions=[
         "You are a flight search specialist using Sabre APIs",
         "Help users find flights with clear pricing and schedules",
